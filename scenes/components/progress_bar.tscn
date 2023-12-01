@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dn2j5bhb4kkhs"]
+
+[ext_resource type="Script" path="res://scripts/progress_bar.gd" id="1_f30ci"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 32.0
+offset_bottom = 40.0
+script = ExtResource("1_f30ci")
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_right = 320.0
+offset_bottom = 27.0
+scale = Vector2(0.1, 0.1)
+show_percentage = false

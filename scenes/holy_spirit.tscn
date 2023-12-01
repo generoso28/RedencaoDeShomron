@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://n3qebr6ttqri"]
+
+[ext_resource type="Script" path="res://scripts/god.gd" id="1_wo0vk"]
+[ext_resource type="Texture2D" uid="uid://d2hqp6soojjop" path="res://assets/characters/Holy_Spirit.png" id="2_g0fvq"]
+[ext_resource type="FontFile" uid="uid://cyck5pt62xg6p" path="res://assets/KIN668.TTF" id="3_ndykp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rwxgt"]
+size = Vector2(260, 325)
+
+[sub_resource type="Theme" id="Theme_flmud"]
+default_font = ExtResource("3_ndykp")
+default_font_size = 10
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qtndy"]
+radius = 688.186
+
+[node name="HolySpirit" type="StaticBody2D"]
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_wo0vk")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(10, -2.50003)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_rwxgt")
+
+[node name="Texture" type="Sprite2D" parent="."]
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_g0fvq")
+flip_h = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="TextEdit" parent="CanvasLayer"]
+visible = false
+offset_left = 64.0
+offset_top = 48.0
+offset_right = 320.0
+offset_bottom = 168.0
+theme = SubResource("Theme_flmud")
+placeholder_text = "\"E eu rogarei ao Pai, e ele vos dará outro Consolador, a fim de que esteja para sempre convosco, o Espírito da verdade, que o mundo não pode receber, porque não o vê, nem o conhece; vós o conheceis, porque ele habita convosco e estará em vós.\""
+editable = false
+wrap_mode = 1
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_qtndy")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

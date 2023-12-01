@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://do1n2udn1bj5h"]
+
+[ext_resource type="Script" path="res://scripts/god.gd" id="1_fc6og"]
+[ext_resource type="Texture2D" uid="uid://d03hpwr6gfyyi" path="res://assets/characters/god.png" id="1_knt4q"]
+[ext_resource type="FontFile" uid="uid://cyck5pt62xg6p" path="res://assets/KIN668.TTF" id="3_kr3rk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rwxgt"]
+size = Vector2(416, 448)
+
+[sub_resource type="Theme" id="Theme_flmud"]
+default_font = ExtResource("3_kr3rk")
+default_font_size = 10
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qtndy"]
+radius = 688.186
+
+[node name="God" type="StaticBody2D"]
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_fc6og")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(-8, -8)
+shape = SubResource("RectangleShape2D_rwxgt")
+
+[node name="Texture" type="Sprite2D" parent="."]
+texture = ExtResource("1_knt4q")
+flip_h = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="TextEdit" parent="CanvasLayer"]
+visible = false
+offset_left = 64.0
+offset_top = 88.0
+offset_right = 320.0
+offset_bottom = 125.0
+theme = SubResource("Theme_flmud")
+placeholder_text = "\"Este é meu Filho Amado, em quem me comprazo!\""
+editable = false
+wrap_mode = 1
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_qtndy")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

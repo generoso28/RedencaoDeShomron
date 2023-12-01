@@ -1,0 +1,65 @@
+[gd_scene load_steps=7 format=3 uid="uid://cktpqc07o33bh"]
+
+[ext_resource type="Script" path="res://scripts/door_component.gd" id="1_8pclt"]
+[ext_resource type="Texture2D" uid="uid://ckocp70if2yx7" path="res://assets/inside/wooden_door_b.png" id="1_mkn1x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wni5a"]
+size = Vector2(28.5, 9)
+
+[sub_resource type="Animation" id="Animation_6i6ok"]
+resource_name = "open"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Texture:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [0, 1]
+}
+
+[sub_resource type="Animation" id="Animation_p5pwd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Texture:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_136le"]
+_data = {
+"RESET": SubResource("Animation_p5pwd"),
+"open": SubResource("Animation_6i6ok")
+}
+
+[node name="DoorComponent" type="Area2D" node_paths=PackedStringArray("_animation")]
+z_index = 2
+script = ExtResource("1_8pclt")
+_animation = NodePath("Animation")
+
+[node name="Texture" type="Sprite2D" parent="."]
+texture = ExtResource("1_mkn1x")
+hframes = 2
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, 14)
+shape = SubResource("RectangleShape2D_wni5a")
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_136le")
+}
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="animation_finished" from="Animation" to="." method="_on_animation_finished"]

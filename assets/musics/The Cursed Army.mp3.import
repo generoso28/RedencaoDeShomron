@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ciak1p2d5frjw"
+path="res://.godot/imported/The Cursed Army.mp3-44aba7b32375a005c1ca3eb8a4ad5cec.mp3str"
+
+[deps]
+
+source_file="res://assets/musics/The Cursed Army.mp3"
+dest_files=["res://.godot/imported/The Cursed Army.mp3-44aba7b32375a005c1ca3eb8a4ad5cec.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

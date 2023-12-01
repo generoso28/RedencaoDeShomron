@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0cxo5qtopqil"
+path="res://.godot/imported/Beyond the Stars.mp3-fb2bd8d4229b04bedae39c950f6145f9.mp3str"
+
+[deps]
+
+source_file="res://assets/musics/Beyond the Stars.mp3"
+dest_files=["res://.godot/imported/Beyond the Stars.mp3-fb2bd8d4229b04bedae39c950f6145f9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

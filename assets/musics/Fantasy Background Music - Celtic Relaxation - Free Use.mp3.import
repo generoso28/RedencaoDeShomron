@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cni1i2b0pm5wg"
+path="res://.godot/imported/Fantasy Background Music - Celtic Relaxation - Free Use.mp3-2e4aa3911ec4054e07500b609c45327e.mp3str"
+
+[deps]
+
+source_file="res://assets/musics/Fantasy Background Music - Celtic Relaxation - Free Use.mp3"
+dest_files=["res://.godot/imported/Fantasy Background Music - Celtic Relaxation - Free Use.mp3-2e4aa3911ec4054e07500b609c45327e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

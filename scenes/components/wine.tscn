@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dcwic6fjf8bk8"]
+
+[ext_resource type="Texture2D" uid="uid://clg8ji6v6cy0h" path="res://assets/objects/tile_0115.png" id="1_g17n4"]
+[ext_resource type="Script" path="res://scripts/wine.gd" id="1_jfemu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bu63s"]
+radius = 30.9919
+
+[node name="Wine" type="Area2D"]
+script = ExtResource("1_jfemu")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_g17n4")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_bu63s")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

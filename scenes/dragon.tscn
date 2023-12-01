@@ -1,0 +1,3636 @@
+[gd_scene load_steps=895 format=3 uid="uid://brg5t50fn5cnk"]
+
+[ext_resource type="Script" path="res://scripts/dragon.gd" id="1_1br8h"]
+[ext_resource type="PackedScene" uid="uid://dn2j5bhb4kkhs" path="res://scenes/components/progress_bar.tscn" id="3_j0sks"]
+[ext_resource type="Texture2D" uid="uid://dmtc0nf1fdy17" path="res://assets/characters/Dragon - Fully Animated/Hurt/01.png" id="163_ibhjg"]
+[ext_resource type="Texture2D" uid="uid://bvtave75skny2" path="res://assets/characters/Dragon - Fully Animated/Hurt/02.png" id="164_txrtd"]
+[ext_resource type="Texture2D" uid="uid://dwnhccygykna" path="res://assets/characters/Dragon - Fully Animated/Hurt/03.png" id="165_iaoow"]
+[ext_resource type="Texture2D" uid="uid://yjcljkpfnbyv" path="res://assets/characters/Dragon - Fully Animated/Hurt/04.png" id="166_0ifms"]
+[ext_resource type="Texture2D" uid="uid://dl3tcnubkb1hi" path="res://assets/characters/Dragon - Fully Animated/Hurt/05.png" id="167_nwuk6"]
+[ext_resource type="Texture2D" uid="uid://3nqdo0bliwk6" path="res://assets/characters/Dragon - Fully Animated/Hurt/06.png" id="168_6eblw"]
+[ext_resource type="Texture2D" uid="uid://c4b5uvjqdlqbn" path="res://assets/characters/Dragon - Fully Animated/Hurt/07.png" id="169_nb1tm"]
+[ext_resource type="Texture2D" uid="uid://bl8867arfj2sy" path="res://assets/characters/Dragon - Fully Animated/Hurt/08.png" id="170_rklk0"]
+[ext_resource type="Texture2D" uid="uid://dop4baa2wmnpp" path="res://assets/characters/Dragon - Fully Animated/Hurt/09.png" id="171_ngxyw"]
+[ext_resource type="Texture2D" uid="uid://cr7slbofupc8b" path="res://assets/characters/Dragon - Fully Animated/Hurt/10.png" id="172_3rg7i"]
+[ext_resource type="Texture2D" uid="uid://tnpdkhtr4pvt" path="res://assets/characters/Dragon - Fully Animated/Hurt/11.png" id="173_wa7a4"]
+[ext_resource type="Texture2D" uid="uid://bfgqglkh68ca3" path="res://assets/characters/Dragon - Fully Animated/Hurt/12.png" id="174_160um"]
+[ext_resource type="Texture2D" uid="uid://blu5870wclm6j" path="res://assets/characters/Dragon - Fully Animated/Hurt/13.png" id="175_n035r"]
+[ext_resource type="Texture2D" uid="uid://dsoonayvxbjgr" path="res://assets/characters/Dragon - Fully Animated/Hurt/14.png" id="176_rvuj7"]
+[ext_resource type="Texture2D" uid="uid://b7ol1h7lfpspb" path="res://assets/characters/Dragon - Fully Animated/Hurt/15.png" id="177_fdxuk"]
+[ext_resource type="Texture2D" uid="uid://34dochdv3e0y" path="res://assets/characters/Dragon - Fully Animated/Hurt/16.png" id="178_vcn24"]
+[ext_resource type="Texture2D" uid="uid://c16pv624dvr4d" path="res://assets/characters/Dragon - Fully Animated/Hurt/17.png" id="179_0w8x8"]
+[ext_resource type="Texture2D" uid="uid://b1g52sfr1k24a" path="res://assets/characters/Dragon - Fully Animated/Hurt/18.png" id="180_gj7w3"]
+[ext_resource type="Texture2D" uid="uid://f6md6cemuncp" path="res://assets/characters/Dragon - Fully Animated/Hurt/19.png" id="181_fheux"]
+[ext_resource type="Texture2D" uid="uid://cw2i3l2srr0nr" path="res://assets/characters/Dragon - Fully Animated/Hurt/20.png" id="182_j4fk4"]
+[ext_resource type="Texture2D" uid="uid://5jntv7p5os2l" path="res://assets/characters/Dragon - Fully Animated/Hurt/21.png" id="183_0kxgo"]
+[ext_resource type="Texture2D" uid="uid://7fonn8yk4dui" path="res://assets/characters/Dragon - Fully Animated/Hurt/22.png" id="184_o26jn"]
+[ext_resource type="Texture2D" uid="uid://cyenrv64m2cjm" path="res://assets/characters/Dragon - Fully Animated/Hurt/23.png" id="185_15uqj"]
+[ext_resource type="Texture2D" uid="uid://b18dgw22thyit" path="res://assets/characters/Dragon - Fully Animated/Hurt/24.png" id="186_xf5mm"]
+[ext_resource type="Texture2D" uid="uid://d2yb2h1y7hfvi" path="res://assets/characters/Dragon - Fully Animated/Hurt/25.png" id="187_sn8t2"]
+[ext_resource type="Texture2D" uid="uid://b0ljbo5mtp1ei" path="res://assets/characters/Dragon - Fully Animated/Hurt/26.png" id="188_wwxfk"]
+[ext_resource type="Texture2D" uid="uid://diakq0bcbkaia" path="res://assets/characters/Dragon - Fully Animated/Hurt/27.png" id="189_s20gr"]
+[ext_resource type="Texture2D" uid="uid://bhr5hip2m58h" path="res://assets/characters/Dragon - Fully Animated/Hurt/28.png" id="190_7adtl"]
+[ext_resource type="Texture2D" uid="uid://ikhbwmp8q2mk" path="res://assets/characters/Dragon - Fully Animated/Hurt/29.png" id="191_e2owj"]
+[ext_resource type="Texture2D" uid="uid://ddgvo77ppvbre" path="res://assets/characters/Dragon - Fully Animated/Hurt/30.png" id="192_8w6ke"]
+[ext_resource type="Texture2D" uid="uid://dc1t3k1lxfndg" path="res://assets/characters/Dragon - Fully Animated/Hurt/31.png" id="193_uv5yp"]
+[ext_resource type="Texture2D" uid="uid://nangsr745w0a" path="res://assets/characters/Dragon - Fully Animated/Hurt/32.png" id="194_hnq25"]
+[ext_resource type="Texture2D" uid="uid://c7u2hr5vas5y" path="res://assets/characters/Dragon - Fully Animated/Hurt/33.png" id="195_pvgrk"]
+[ext_resource type="Texture2D" uid="uid://bbkvqd0qt1hh0" path="res://assets/characters/Dragon - Fully Animated/Hurt/34.png" id="196_jprf6"]
+[ext_resource type="Texture2D" uid="uid://dqj5pj63bj1i8" path="res://assets/characters/Dragon - Fully Animated/Hurt/35.png" id="197_53w1g"]
+[ext_resource type="Texture2D" uid="uid://dqusev4y821tj" path="res://assets/characters/Dragon - Fully Animated/Hurt/36.png" id="198_8w8h5"]
+[ext_resource type="Texture2D" uid="uid://oj8du7cdyy2r" path="res://assets/characters/Dragon - Fully Animated/Hurt/37.png" id="199_guw55"]
+[ext_resource type="Texture2D" uid="uid://q1tprtyu0fn3" path="res://assets/characters/Dragon - Fully Animated/Hurt/38.png" id="200_q3ryw"]
+[ext_resource type="Texture2D" uid="uid://dxph8wtrp5bhx" path="res://assets/characters/Dragon - Fully Animated/Hurt/39.png" id="201_p40jo"]
+[ext_resource type="Texture2D" uid="uid://dlo5a7hs0ockm" path="res://assets/characters/Dragon - Fully Animated/Hurt/40.png" id="202_jcdno"]
+[ext_resource type="Texture2D" uid="uid://c5h5ykabhccm4" path="res://assets/characters/Dragon - Fully Animated/Hurt/41.png" id="203_pi2ef"]
+[ext_resource type="Texture2D" uid="uid://cpg4886taio2e" path="res://assets/characters/Dragon - Fully Animated/Hurt/42.png" id="204_tmpa5"]
+[ext_resource type="Texture2D" uid="uid://ccjwces0b8uug" path="res://assets/characters/Dragon - Fully Animated/Hurt/43.png" id="205_gjo7p"]
+[ext_resource type="Texture2D" uid="uid://6v1eg2leybjv" path="res://assets/characters/Dragon - Fully Animated/Hurt/44.png" id="206_ad0ke"]
+[ext_resource type="Texture2D" uid="uid://h3q8kpw57byf" path="res://assets/characters/Dragon - Fully Animated/Hurt/45.png" id="207_r2otl"]
+[ext_resource type="Texture2D" uid="uid://c8saf5ro87tgj" path="res://assets/characters/Dragon - Fully Animated/Hurt/46.png" id="208_ubsgs"]
+[ext_resource type="Texture2D" uid="uid://hcx6v1qifiik" path="res://assets/characters/Dragon - Fully Animated/Hurt/47.png" id="209_r3gkg"]
+[ext_resource type="Texture2D" uid="uid://b4j5x6rpoiqyi" path="res://assets/characters/Dragon - Fully Animated/Hurt/48.png" id="210_pk1cp"]
+[ext_resource type="Texture2D" uid="uid://c07npfc7cwxc6" path="res://assets/characters/Dragon - Fully Animated/Hurt/49.png" id="211_rf6q5"]
+[ext_resource type="Texture2D" uid="uid://dox3b4uj8g0to" path="res://assets/characters/Dragon - Fully Animated/Hurt/50.png" id="212_lwmg1"]
+[ext_resource type="Texture2D" uid="uid://d4i1d06y2mmrf" path="res://assets/characters/Dragon - Fully Animated/Hurt/51.png" id="213_4o4hb"]
+[ext_resource type="Texture2D" uid="uid://nmr0s4ukijii" path="res://assets/characters/Dragon - Fully Animated/Hurt/52.png" id="214_vpmty"]
+[ext_resource type="Texture2D" uid="uid://dn0i0d3slgfr7" path="res://assets/characters/Dragon - Fully Animated/Hurt/53.png" id="215_45nkw"]
+[ext_resource type="Texture2D" uid="uid://cbam3oagvvj41" path="res://assets/characters/Dragon - Fully Animated/Hurt/54.png" id="216_1knas"]
+[ext_resource type="Texture2D" uid="uid://by4qdsvse21hd" path="res://assets/characters/Dragon - Fully Animated/Hurt/55.png" id="217_mwswp"]
+[ext_resource type="Texture2D" uid="uid://b2mff7usv0gv4" path="res://assets/characters/Dragon - Fully Animated/Hurt/56.png" id="218_7m284"]
+[ext_resource type="Texture2D" uid="uid://dnqcd8u2ul4io" path="res://assets/characters/Dragon - Fully Animated/Hurt/57.png" id="219_aloxk"]
+[ext_resource type="Texture2D" uid="uid://c8vvhrfmi8kp" path="res://assets/characters/Dragon - Fully Animated/Hurt/58.png" id="220_rma1k"]
+[ext_resource type="Texture2D" uid="uid://b8wo37ieg4hye" path="res://assets/characters/Dragon - Fully Animated/Hurt/59.png" id="221_263t8"]
+[ext_resource type="Texture2D" uid="uid://c3v53xcnhimo" path="res://assets/characters/Dragon - Fully Animated/Hurt/60.png" id="222_ccl6w"]
+[ext_resource type="Texture2D" uid="uid://dardpjmec0xdx" path="res://assets/characters/Dragon - Fully Animated/Hurt/61.png" id="223_be0m6"]
+[ext_resource type="Texture2D" uid="uid://bsuseu0t0skia" path="res://assets/characters/Dragon - Fully Animated/Hurt/62.png" id="224_31jjk"]
+[ext_resource type="Texture2D" uid="uid://dr3rr6klew0gw" path="res://assets/characters/Dragon - Fully Animated/Death/001.png" id="225_7uedp"]
+[ext_resource type="Texture2D" uid="uid://b1mtaqjyhuokb" path="res://assets/characters/Dragon - Fully Animated/Death/002.png" id="226_y0lwg"]
+[ext_resource type="Texture2D" uid="uid://d2kyr6lgo3ml8" path="res://assets/characters/Dragon - Fully Animated/Death/003.png" id="227_t0ewa"]
+[ext_resource type="Texture2D" uid="uid://dhj75splsmc6h" path="res://assets/characters/Dragon - Fully Animated/Death/004.png" id="228_mj3i0"]
+[ext_resource type="Texture2D" uid="uid://f4jy5peudenv" path="res://assets/characters/Dragon - Fully Animated/Death/005.png" id="229_3i361"]
+[ext_resource type="Texture2D" uid="uid://cvgov1ntnm2hx" path="res://assets/characters/Dragon - Fully Animated/Death/006.png" id="230_1gcnt"]
+[ext_resource type="Texture2D" uid="uid://cmtuy6abr1ymj" path="res://assets/characters/Dragon - Fully Animated/Death/007.png" id="231_5psv5"]
+[ext_resource type="Texture2D" uid="uid://b7t4mq8c4c3tc" path="res://assets/characters/Dragon - Fully Animated/Death/008.png" id="232_ko2oj"]
+[ext_resource type="Texture2D" uid="uid://c4ps7cxjtoyhy" path="res://assets/characters/Dragon - Fully Animated/Death/009.png" id="233_5ku8a"]
+[ext_resource type="Texture2D" uid="uid://ddua521bw0ftj" path="res://assets/characters/Dragon - Fully Animated/Death/010.png" id="234_ogfms"]
+[ext_resource type="Texture2D" uid="uid://bf0jqg5hcpru4" path="res://assets/characters/Dragon - Fully Animated/Death/011.png" id="235_kn4n5"]
+[ext_resource type="Texture2D" uid="uid://cydstlt6n1uij" path="res://assets/characters/Dragon - Fully Animated/Death/012.png" id="236_dkn2f"]
+[ext_resource type="Texture2D" uid="uid://67y77o8gp381" path="res://assets/characters/Dragon - Fully Animated/Death/013.png" id="237_dle3c"]
+[ext_resource type="Texture2D" uid="uid://bimnptnvvp2ws" path="res://assets/characters/Dragon - Fully Animated/Death/014.png" id="238_4dfw8"]
+[ext_resource type="Texture2D" uid="uid://ciwdcc37ts2md" path="res://assets/characters/Dragon - Fully Animated/Death/015.png" id="239_h5lrd"]
+[ext_resource type="Texture2D" uid="uid://diwvs5p1tftqp" path="res://assets/characters/Dragon - Fully Animated/Death/016.png" id="240_xmk6i"]
+[ext_resource type="Texture2D" uid="uid://bvi0y6omgf2qh" path="res://assets/characters/Dragon - Fully Animated/Death/017.png" id="241_55nam"]
+[ext_resource type="Texture2D" uid="uid://numk82jyussg" path="res://assets/characters/Dragon - Fully Animated/Death/018.png" id="242_m3xts"]
+[ext_resource type="Texture2D" uid="uid://b5vifnrbx1wo3" path="res://assets/characters/Dragon - Fully Animated/Death/019.png" id="243_mldwf"]
+[ext_resource type="Texture2D" uid="uid://rlbnysaemf0r" path="res://assets/characters/Dragon - Fully Animated/Death/020.png" id="244_jjtcp"]
+[ext_resource type="Texture2D" uid="uid://sjfqsojw38x7" path="res://assets/characters/Dragon - Fully Animated/Death/021.png" id="245_4v04f"]
+[ext_resource type="Texture2D" uid="uid://cmijmrvteswhb" path="res://assets/characters/Dragon - Fully Animated/Death/022.png" id="246_e1jg5"]
+[ext_resource type="Texture2D" uid="uid://ysr61pubjimb" path="res://assets/characters/Dragon - Fully Animated/Death/023.png" id="247_eda5h"]
+[ext_resource type="Texture2D" uid="uid://e26c5nh746yx" path="res://assets/characters/Dragon - Fully Animated/Death/024.png" id="248_18neq"]
+[ext_resource type="Texture2D" uid="uid://dcl1squeqrlie" path="res://assets/characters/Dragon - Fully Animated/Death/025.png" id="249_7pl2y"]
+[ext_resource type="Texture2D" uid="uid://bui5xev11aal0" path="res://assets/characters/Dragon - Fully Animated/Death/026.png" id="250_duo4t"]
+[ext_resource type="Texture2D" uid="uid://c5i6pn7ndb282" path="res://assets/characters/Dragon - Fully Animated/Death/027.png" id="251_6auxe"]
+[ext_resource type="Texture2D" uid="uid://bshpnjahogxoq" path="res://assets/characters/Dragon - Fully Animated/Death/028.png" id="252_cv4ka"]
+[ext_resource type="Texture2D" uid="uid://b107un137c3rn" path="res://assets/characters/Dragon - Fully Animated/Death/029.png" id="253_siu3p"]
+[ext_resource type="Texture2D" uid="uid://bldb5b8ayr0d" path="res://assets/characters/Dragon - Fully Animated/Death/030.png" id="254_hv4xq"]
+[ext_resource type="Texture2D" uid="uid://u1iep6yo3mbx" path="res://assets/characters/Dragon - Fully Animated/Death/031.png" id="255_5m06r"]
+[ext_resource type="Texture2D" uid="uid://dmja3v8aoyhco" path="res://assets/characters/Dragon - Fully Animated/Death/032.png" id="256_wy4xj"]
+[ext_resource type="Texture2D" uid="uid://ci4t1rm1rpdcs" path="res://assets/characters/Dragon - Fully Animated/Death/033.png" id="257_05nd7"]
+[ext_resource type="Texture2D" uid="uid://c4s038amqyf2p" path="res://assets/characters/Dragon - Fully Animated/Death/034.png" id="258_vivp2"]
+[ext_resource type="Texture2D" uid="uid://bhi6cfydsfxl" path="res://assets/characters/Dragon - Fully Animated/Death/035.png" id="259_be0da"]
+[ext_resource type="Texture2D" uid="uid://dswo5cq1y4ia0" path="res://assets/characters/Dragon - Fully Animated/Death/036.png" id="260_7tdtv"]
+[ext_resource type="Texture2D" uid="uid://byfccalo16ke1" path="res://assets/characters/Dragon - Fully Animated/Death/037.png" id="261_ljs1c"]
+[ext_resource type="Texture2D" uid="uid://tsqcqg7wo18m" path="res://assets/characters/Dragon - Fully Animated/Death/038.png" id="262_h6p7b"]
+[ext_resource type="Texture2D" uid="uid://w5gwwoxtbvit" path="res://assets/characters/Dragon - Fully Animated/Death/039.png" id="263_fna3m"]
+[ext_resource type="Texture2D" uid="uid://culgp865cv3vi" path="res://assets/characters/Dragon - Fully Animated/Death/040.png" id="264_0323j"]
+[ext_resource type="Texture2D" uid="uid://dhc8iiiwipckl" path="res://assets/characters/Dragon - Fully Animated/Death/041.png" id="265_a22lf"]
+[ext_resource type="Texture2D" uid="uid://bkhj5xlrej5r5" path="res://assets/characters/Dragon - Fully Animated/Death/042.png" id="266_otaie"]
+[ext_resource type="Texture2D" uid="uid://36ol8w6274vo" path="res://assets/characters/Dragon - Fully Animated/Death/043.png" id="267_blxna"]
+[ext_resource type="Texture2D" uid="uid://bx5fiigimydc" path="res://assets/characters/Dragon - Fully Animated/Death/044.png" id="268_i8p67"]
+[ext_resource type="Texture2D" uid="uid://d3rkkoos2jsnu" path="res://assets/characters/Dragon - Fully Animated/Death/045.png" id="269_apdff"]
+[ext_resource type="Texture2D" uid="uid://rvvmlcgmfkc3" path="res://assets/characters/Dragon - Fully Animated/Death/046.png" id="270_4ouhu"]
+[ext_resource type="Texture2D" uid="uid://bdpngty46kdjh" path="res://assets/characters/Dragon - Fully Animated/Death/047.png" id="271_74fg4"]
+[ext_resource type="Texture2D" uid="uid://dtj5ur4iqhfc0" path="res://assets/characters/Dragon - Fully Animated/Death/048.png" id="272_weawb"]
+[ext_resource type="Texture2D" uid="uid://le6buhn88uva" path="res://assets/characters/Dragon - Fully Animated/Death/049.png" id="273_xl7fr"]
+[ext_resource type="Texture2D" uid="uid://cowmpsih08mtk" path="res://assets/characters/Dragon - Fully Animated/Death/050.png" id="274_bdmya"]
+[ext_resource type="Texture2D" uid="uid://cwctb0g717epf" path="res://assets/characters/Dragon - Fully Animated/Death/051.png" id="275_6mq6v"]
+[ext_resource type="Texture2D" uid="uid://chckrl7j8prd" path="res://assets/characters/Dragon - Fully Animated/Death/052.png" id="276_2oa6o"]
+[ext_resource type="Texture2D" uid="uid://gbvwlauph7v6" path="res://assets/characters/Dragon - Fully Animated/Death/053.png" id="277_t31sq"]
+[ext_resource type="Texture2D" uid="uid://li3ebqbbkpsg" path="res://assets/characters/Dragon - Fully Animated/Death/054.png" id="278_ocdtd"]
+[ext_resource type="Texture2D" uid="uid://c2e5p3uox0amc" path="res://assets/characters/Dragon - Fully Animated/Death/055.png" id="279_3ni33"]
+[ext_resource type="Texture2D" uid="uid://dpt4temp0r8br" path="res://assets/characters/Dragon - Fully Animated/Death/056.png" id="280_mtbfh"]
+[ext_resource type="Texture2D" uid="uid://bl8sljd6mhj7h" path="res://assets/characters/Dragon - Fully Animated/Death/057.png" id="281_nxkes"]
+[ext_resource type="Texture2D" uid="uid://dds6d6bw30oj8" path="res://assets/characters/Dragon - Fully Animated/Death/058.png" id="282_6wvy6"]
+[ext_resource type="Texture2D" uid="uid://b07fofsuw8k04" path="res://assets/characters/Dragon - Fully Animated/Death/059.png" id="283_oujbo"]
+[ext_resource type="Texture2D" uid="uid://clloipowia60e" path="res://assets/characters/Dragon - Fully Animated/Death/060.png" id="284_egpff"]
+[ext_resource type="Texture2D" uid="uid://de5okvsxi7ynn" path="res://assets/characters/Dragon - Fully Animated/Death/061.png" id="285_he1bc"]
+[ext_resource type="Texture2D" uid="uid://shay53llawco" path="res://assets/characters/Dragon - Fully Animated/Death/062.png" id="286_3ckvs"]
+[ext_resource type="Texture2D" uid="uid://c0eo0j633rqwj" path="res://assets/characters/Dragon - Fully Animated/Death/063.png" id="287_5mytq"]
+[ext_resource type="Texture2D" uid="uid://b152qm2i3d57r" path="res://assets/characters/Dragon - Fully Animated/Death/064.png" id="288_xuxcu"]
+[ext_resource type="Texture2D" uid="uid://bb2tn8oumqmcn" path="res://assets/characters/Dragon - Fully Animated/Death/065.png" id="289_ap7jy"]
+[ext_resource type="Texture2D" uid="uid://ucuu01n4j0rc" path="res://assets/characters/Dragon - Fully Animated/Death/066.png" id="290_oo50v"]
+[ext_resource type="Texture2D" uid="uid://d3gxlaip1ihty" path="res://assets/characters/Dragon - Fully Animated/Death/067.png" id="291_dea1e"]
+[ext_resource type="Texture2D" uid="uid://bfpawbk5pl3ke" path="res://assets/characters/Dragon - Fully Animated/Death/068.png" id="292_dixl8"]
+[ext_resource type="Texture2D" uid="uid://be2qcbi1o4jqu" path="res://assets/characters/Dragon - Fully Animated/Death/069.png" id="293_xfr2p"]
+[ext_resource type="Texture2D" uid="uid://bgr25w3b06bqa" path="res://assets/characters/Dragon - Fully Animated/Death/070.png" id="294_n4uvv"]
+[ext_resource type="Texture2D" uid="uid://ca8kpfswa2032" path="res://assets/characters/Dragon - Fully Animated/Death/071.png" id="295_tktsb"]
+[ext_resource type="Texture2D" uid="uid://dl3q3y34gjcm5" path="res://assets/characters/Dragon - Fully Animated/Death/072.png" id="296_u5h8w"]
+[ext_resource type="Texture2D" uid="uid://c4du40imyoogs" path="res://assets/characters/Dragon - Fully Animated/Death/073.png" id="297_xmjbi"]
+[ext_resource type="Texture2D" uid="uid://c5qh876tgcrku" path="res://assets/characters/Dragon - Fully Animated/Death/074.png" id="298_omcnl"]
+[ext_resource type="Texture2D" uid="uid://dk2jh23qk5u1j" path="res://assets/characters/Dragon - Fully Animated/Death/075.png" id="299_81ksu"]
+[ext_resource type="Texture2D" uid="uid://de0x0pq817fm1" path="res://assets/characters/Dragon - Fully Animated/Death/076.png" id="300_hrmyf"]
+[ext_resource type="Texture2D" uid="uid://xc6pjja3o6vv" path="res://assets/characters/Dragon - Fully Animated/Death/077.png" id="301_hf7dh"]
+[ext_resource type="Texture2D" uid="uid://bknlfqhgv5sby" path="res://assets/characters/Dragon - Fully Animated/Death/078.png" id="302_bbbn7"]
+[ext_resource type="Texture2D" uid="uid://jmh82xtag308" path="res://assets/characters/Dragon - Fully Animated/Death/079.png" id="303_6qunl"]
+[ext_resource type="Texture2D" uid="uid://d1lmq8cxjs072" path="res://assets/characters/Dragon - Fully Animated/Death/080.png" id="304_rvwn2"]
+[ext_resource type="Texture2D" uid="uid://bd3cyllew6fe2" path="res://assets/characters/Dragon - Fully Animated/Death/081.png" id="305_aip71"]
+[ext_resource type="Texture2D" uid="uid://dyipr6tw3lx0b" path="res://assets/characters/Dragon - Fully Animated/Death/082.png" id="306_mj6bl"]
+[ext_resource type="Texture2D" uid="uid://cut57yblav7i7" path="res://assets/characters/Dragon - Fully Animated/Death/083.png" id="307_seqoa"]
+[ext_resource type="Texture2D" uid="uid://mv38b2auo8in" path="res://assets/characters/Dragon - Fully Animated/Death/084.png" id="308_cvi0s"]
+[ext_resource type="Texture2D" uid="uid://v37tlgjnvd0p" path="res://assets/characters/Dragon - Fully Animated/Death/085.png" id="309_3jakf"]
+[ext_resource type="Texture2D" uid="uid://gl1yt48x8tpc" path="res://assets/characters/Dragon - Fully Animated/Death/086.png" id="310_wr1u0"]
+[ext_resource type="Texture2D" uid="uid://ccmwl3h5cra2h" path="res://assets/characters/Dragon - Fully Animated/Death/087.png" id="311_v74mn"]
+[ext_resource type="Texture2D" uid="uid://iafldpcvpj0n" path="res://assets/characters/Dragon - Fully Animated/Death/088.png" id="312_6vk1g"]
+[ext_resource type="Texture2D" uid="uid://oa82uk3lapnr" path="res://assets/characters/Dragon - Fully Animated/Death/089.png" id="313_tpquy"]
+[ext_resource type="Texture2D" uid="uid://cudjol0r1cfg7" path="res://assets/characters/Dragon - Fully Animated/Death/090.png" id="314_b7b3y"]
+[ext_resource type="Texture2D" uid="uid://c8obv2khm52ci" path="res://assets/characters/Dragon - Fully Animated/Death/091.png" id="315_iheeu"]
+[ext_resource type="Texture2D" uid="uid://b5qokwxdsfph6" path="res://assets/characters/Dragon - Fully Animated/Death/092.png" id="316_555pn"]
+[ext_resource type="Texture2D" uid="uid://c7dneytx0owwh" path="res://assets/characters/Dragon - Fully Animated/Death/093.png" id="317_12cg8"]
+[ext_resource type="Texture2D" uid="uid://nbpakpm8qd8i" path="res://assets/characters/Dragon - Fully Animated/Death/094.png" id="318_tin6c"]
+[ext_resource type="Texture2D" uid="uid://cnidhpan76k12" path="res://assets/characters/Dragon - Fully Animated/Death/095.png" id="319_ujua2"]
+[ext_resource type="Texture2D" uid="uid://b6yhtlwafvqxq" path="res://assets/characters/Dragon - Fully Animated/Death/096.png" id="320_3vnrx"]
+[ext_resource type="Texture2D" uid="uid://dn68h83qmt1at" path="res://assets/characters/Dragon - Fully Animated/Death/097.png" id="321_4a4vk"]
+[ext_resource type="Texture2D" uid="uid://l136082p28xq" path="res://assets/characters/Dragon - Fully Animated/Death/098.png" id="322_5xsj4"]
+[ext_resource type="Texture2D" uid="uid://xs56ewfeimab" path="res://assets/characters/Dragon - Fully Animated/Death/099.png" id="323_cemq8"]
+[ext_resource type="Texture2D" uid="uid://bgoqsp7mqd0in" path="res://assets/characters/Dragon - Fully Animated/Death/100.png" id="324_xstv5"]
+[ext_resource type="Texture2D" uid="uid://ctgsukl0lqma4" path="res://assets/characters/Dragon - Fully Animated/Death/101.png" id="325_vk7us"]
+[ext_resource type="Texture2D" uid="uid://dwm5uii3x1fw" path="res://assets/characters/Dragon - Fully Animated/Death/102.png" id="326_6vpy3"]
+[ext_resource type="Texture2D" uid="uid://d3xg6u0hhlsbk" path="res://assets/characters/Dragon - Fully Animated/Death/103.png" id="327_j1b2x"]
+[ext_resource type="Texture2D" uid="uid://weuwsrfvy0pc" path="res://assets/characters/Dragon - Fully Animated/Death/104.png" id="328_hju1w"]
+[ext_resource type="Texture2D" uid="uid://sncvisjqgdxm" path="res://assets/characters/Dragon - Fully Animated/Death/105.png" id="329_arnck"]
+[ext_resource type="Texture2D" uid="uid://b0nt8gen3u2qh" path="res://assets/characters/Dragon - Fully Animated/Death/106.png" id="330_gtb27"]
+[ext_resource type="Texture2D" uid="uid://dalmwpmahogfq" path="res://assets/characters/Dragon - Fully Animated/Death/107.png" id="331_grbso"]
+[ext_resource type="Texture2D" uid="uid://c83qh8e2q7rbw" path="res://assets/characters/Dragon - Fully Animated/Death/108.png" id="332_tcfyt"]
+[ext_resource type="Texture2D" uid="uid://3htrdjpfh2nl" path="res://assets/characters/Dragon - Fully Animated/Death/109.png" id="333_qyi07"]
+[ext_resource type="Texture2D" uid="uid://eya0rhipgunl" path="res://assets/characters/Dragon - Fully Animated/Death/110.png" id="334_0sae6"]
+[ext_resource type="Texture2D" uid="uid://dmgf4wbl1ku7t" path="res://assets/characters/Dragon - Fully Animated/Death/111.png" id="335_aoees"]
+[ext_resource type="Texture2D" uid="uid://lfefektywjit" path="res://assets/characters/Dragon - Fully Animated/Death/112.png" id="336_33scv"]
+[ext_resource type="Texture2D" uid="uid://ds868ouda2y4c" path="res://assets/characters/Dragon - Fully Animated/Death/113.png" id="337_ovbhi"]
+[ext_resource type="Texture2D" uid="uid://celj7cblvgttc" path="res://assets/characters/Dragon - Fully Animated/Death/114.png" id="338_l0clw"]
+[ext_resource type="Texture2D" uid="uid://c4c86v8feuqn6" path="res://assets/characters/Dragon - Fully Animated/Death/115.png" id="339_3u6ts"]
+[ext_resource type="Texture2D" uid="uid://br5y8e8v7ydua" path="res://assets/characters/Dragon - Fully Animated/Death/116.png" id="340_tewrb"]
+[ext_resource type="Texture2D" uid="uid://dklq3jbtktf54" path="res://assets/characters/Dragon - Fully Animated/Death/117.png" id="341_3urdm"]
+[ext_resource type="Texture2D" uid="uid://dex8ipcxyje65" path="res://assets/characters/Dragon - Fully Animated/Death/118.png" id="342_npfjj"]
+[ext_resource type="Texture2D" uid="uid://c4hq5tcpixksi" path="res://assets/characters/Dragon - Fully Animated/Death/119.png" id="343_tig0e"]
+[ext_resource type="Texture2D" uid="uid://cnrn07rw5jyda" path="res://assets/characters/Dragon - Fully Animated/Death/120.png" id="344_u1j50"]
+[ext_resource type="Texture2D" uid="uid://dnc2p47j8lo6d" path="res://assets/characters/Dragon - Fully Animated/Death/121.png" id="345_jns2s"]
+[ext_resource type="Texture2D" uid="uid://bxpxtkl3gnt3b" path="res://assets/characters/Dragon - Fully Animated/Death/122.png" id="346_c8knp"]
+[ext_resource type="Texture2D" uid="uid://be4ns1nvoel25" path="res://assets/characters/Dragon - Fully Animated/Death/123.png" id="347_i77u7"]
+[ext_resource type="Texture2D" uid="uid://b38f3mn4vuh34" path="res://assets/characters/Dragon - Fully Animated/Death/124.png" id="348_3dgcu"]
+[ext_resource type="Texture2D" uid="uid://cca2j06o4gqut" path="res://assets/characters/Dragon - Fully Animated/Death/125.png" id="349_7q0i7"]
+[ext_resource type="Texture2D" uid="uid://dxxkm6bqtd1f2" path="res://assets/characters/Dragon - Fully Animated/Death/126.png" id="350_2jd5v"]
+[ext_resource type="Texture2D" uid="uid://bt06l0onbgpsr" path="res://assets/characters/Dragon - Fully Animated/Death/127.png" id="351_jq0le"]
+[ext_resource type="Texture2D" uid="uid://cpjpmn7t781ht" path="res://assets/characters/Dragon - Fully Animated/Death/128.png" id="352_dwfr2"]
+[ext_resource type="Texture2D" uid="uid://du0532bby6jmk" path="res://assets/characters/Dragon - Fully Animated/Death/129.png" id="353_5t3pb"]
+[ext_resource type="Texture2D" uid="uid://bxgfoitujs103" path="res://assets/characters/Dragon - Fully Animated/Death/130.png" id="354_05ls4"]
+[ext_resource type="Texture2D" uid="uid://4081yywqhbhy" path="res://assets/characters/Dragon - Fully Animated/Death/131.png" id="355_pnyl6"]
+[ext_resource type="Texture2D" uid="uid://cng4ok8bq3p3k" path="res://assets/characters/Dragon - Fully Animated/Death/132.png" id="356_j0whu"]
+[ext_resource type="Texture2D" uid="uid://c4h3ctlguaeij" path="res://assets/characters/Dragon - Fully Animated/Death/133.png" id="357_ee83i"]
+[ext_resource type="Texture2D" uid="uid://b7a0k5qgpj583" path="res://assets/characters/Dragon - Fully Animated/Death/134.png" id="358_jffd0"]
+[ext_resource type="Texture2D" uid="uid://dc4mvvo4hlfgv" path="res://assets/characters/Dragon - Fully Animated/Death/135.png" id="359_qavra"]
+[ext_resource type="Texture2D" uid="uid://djt3kelcdf45g" path="res://assets/characters/Dragon - Fully Animated/Death/136.png" id="360_sxb2n"]
+[ext_resource type="Texture2D" uid="uid://sf4ti8t0tj3b" path="res://assets/characters/Dragon - Fully Animated/Death/137.png" id="361_0xihy"]
+[ext_resource type="Texture2D" uid="uid://bpvhvybrb7j7j" path="res://assets/characters/Dragon - Fully Animated/Death/138.png" id="362_yw8dt"]
+[ext_resource type="Texture2D" uid="uid://ciiduddncaewn" path="res://assets/characters/Dragon - Fully Animated/Death/139.png" id="363_msh4r"]
+[ext_resource type="Texture2D" uid="uid://bnkj4ef8ky2wy" path="res://assets/characters/Dragon - Fully Animated/Death/140.png" id="364_4x4uo"]
+[ext_resource type="Texture2D" uid="uid://dlww8gljxxpg5" path="res://assets/characters/Dragon - Fully Animated/Death/141.png" id="365_c7tpk"]
+[ext_resource type="Texture2D" uid="uid://bi1g43jrkmvfb" path="res://assets/characters/Dragon - Fully Animated/Death/142.png" id="366_p4ian"]
+[ext_resource type="Texture2D" uid="uid://c8xujoudo7a0h" path="res://assets/characters/Dragon - Fully Animated/Death/143.png" id="367_k1cs6"]
+[ext_resource type="Texture2D" uid="uid://sylw7hjforj2" path="res://assets/characters/Dragon - Fully Animated/Death/144.png" id="368_wqj2d"]
+[ext_resource type="Texture2D" uid="uid://3ohin7nacgqo" path="res://assets/characters/Dragon - Fully Animated/Death/145.png" id="369_sr3yl"]
+[ext_resource type="Texture2D" uid="uid://dei7150my1xay" path="res://assets/characters/Dragon - Fully Animated/Death/146.png" id="370_ui1yg"]
+[ext_resource type="Texture2D" uid="uid://x8xautnijowk" path="res://assets/characters/Dragon - Fully Animated/Death/147.png" id="371_umka3"]
+[ext_resource type="Texture2D" uid="uid://b7hrlpds1phpa" path="res://assets/characters/Dragon - Fully Animated/Death/148.png" id="372_g04ob"]
+[ext_resource type="Texture2D" uid="uid://8lite01y2vbp" path="res://assets/characters/Dragon - Fully Animated/Death/149.png" id="373_byyxo"]
+[ext_resource type="Texture2D" uid="uid://xhlsg2d5x13" path="res://assets/characters/Dragon - Fully Animated/Death/150.png" id="374_vkjx5"]
+[ext_resource type="Texture2D" uid="uid://4ilbuenlbwvt" path="res://assets/characters/Dragon - Fully Animated/Death/151.png" id="375_7nsva"]
+[ext_resource type="Texture2D" uid="uid://dbi4alxg8cov0" path="res://assets/characters/Dragon - Fully Animated/Death/152.png" id="376_ih6ug"]
+[ext_resource type="Texture2D" uid="uid://c0swuo6y6cmxu" path="res://assets/characters/Dragon - Fully Animated/Death/153.png" id="377_uo3qf"]
+[ext_resource type="Texture2D" uid="uid://pucwnuvd8pln" path="res://assets/characters/Dragon - Fully Animated/Death/154.png" id="378_bq6n0"]
+[ext_resource type="Texture2D" uid="uid://cttp1838ie3sh" path="res://assets/characters/Dragon - Fully Animated/Death/155.png" id="379_3kl67"]
+[ext_resource type="Texture2D" uid="uid://c53j4y8q0pyw4" path="res://assets/characters/Dragon - Fully Animated/Death/156.png" id="380_cmap6"]
+[ext_resource type="Texture2D" uid="uid://big8xpuedwpyq" path="res://assets/characters/Dragon - Fully Animated/Death/157.png" id="381_bcofq"]
+[ext_resource type="Texture2D" uid="uid://bnts2srlmltoj" path="res://assets/characters/Dragon - Fully Animated/Death/158.png" id="382_ng2dt"]
+[ext_resource type="Texture2D" uid="uid://wget3wdakv8j" path="res://assets/characters/Dragon - Fully Animated/Death/159.png" id="383_glsc7"]
+[ext_resource type="Texture2D" uid="uid://b54b6a7e3pcg3" path="res://assets/characters/Dragon - Fully Animated/Death/160.png" id="384_47lul"]
+[ext_resource type="Texture2D" uid="uid://b7ch6yfy63pgo" path="res://assets/characters/Dragon - Fully Animated/Death/161.png" id="385_1u51s"]
+[ext_resource type="Texture2D" uid="uid://bl3gwe4o07iiu" path="res://assets/characters/Dragon - Fully Animated/Death/162.png" id="386_80x4g"]
+[ext_resource type="Texture2D" uid="uid://jefu8f1gbgm1" path="res://assets/characters/Dragon - Fully Animated/Death/163.png" id="387_ybk27"]
+[ext_resource type="Texture2D" uid="uid://t1avi4jwq6s5" path="res://assets/characters/Dragon - Fully Animated/Death/164.png" id="388_4e1hk"]
+[ext_resource type="Texture2D" uid="uid://5s0wk1ypc4af" path="res://assets/characters/Dragon - Fully Animated/Death/165.png" id="389_xkehd"]
+[ext_resource type="Texture2D" uid="uid://v2kuftu08yah" path="res://assets/characters/Dragon - Fully Animated/Death/166.png" id="390_vli3v"]
+[ext_resource type="Texture2D" uid="uid://dtgbey8rt3n8b" path="res://assets/characters/Dragon - Fully Animated/Death/167.png" id="391_0jps1"]
+[ext_resource type="Texture2D" uid="uid://deid0n2jqoqsy" path="res://assets/characters/Dragon - Fully Animated/Death/168.png" id="392_orpba"]
+[ext_resource type="Texture2D" uid="uid://f681fkekckpc" path="res://assets/characters/Dragon - Fully Animated/Death/169.png" id="393_rr0r5"]
+[ext_resource type="Texture2D" uid="uid://087i32ts6bht" path="res://assets/characters/Dragon - Fully Animated/Death/170.png" id="394_db40x"]
+[ext_resource type="Texture2D" uid="uid://cuey4af3in6gm" path="res://assets/characters/Dragon - Fully Animated/Death/171.png" id="395_st1kq"]
+[ext_resource type="Texture2D" uid="uid://cr5h5kof6uynb" path="res://assets/characters/Dragon - Fully Animated/Death/172.png" id="396_l57f7"]
+[ext_resource type="Texture2D" uid="uid://dyhvgcp1wpnax" path="res://assets/characters/Dragon - Fully Animated/Death/173.png" id="397_qv7x1"]
+[ext_resource type="Texture2D" uid="uid://cm6amwvx1pco0" path="res://assets/characters/Dragon - Fully Animated/Death/174.png" id="398_vbtha"]
+[ext_resource type="Texture2D" uid="uid://bflr8r7el2yoj" path="res://assets/characters/Dragon - Fully Animated/Death/175.png" id="399_2j744"]
+[ext_resource type="Texture2D" uid="uid://ds6p1gsjoxolb" path="res://assets/characters/Dragon - Fully Animated/Death/176.png" id="400_ec5cb"]
+[ext_resource type="Texture2D" uid="uid://cqpnfb38vflcr" path="res://assets/characters/Dragon - Fully Animated/Death/177.png" id="401_lfxo1"]
+[ext_resource type="Texture2D" uid="uid://dxeypnf1xm6np" path="res://assets/characters/Dragon - Fully Animated/Death/178.png" id="402_1ggof"]
+[ext_resource type="Texture2D" uid="uid://dabdpxclbc54k" path="res://assets/characters/Dragon - Fully Animated/Death/179.png" id="403_mg0lw"]
+[ext_resource type="Texture2D" uid="uid://dn8mbkr6umii0" path="res://assets/characters/Dragon - Fully Animated/Death/180.png" id="404_rimwa"]
+[ext_resource type="Texture2D" uid="uid://dcx5l0tpqoevj" path="res://assets/characters/Dragon - Fully Animated/Death/181.png" id="405_c2vli"]
+[ext_resource type="Texture2D" uid="uid://cjbvbb8x0ll6g" path="res://assets/characters/Dragon - Fully Animated/Death/182.png" id="406_bjevq"]
+[ext_resource type="Texture2D" uid="uid://bgff8uc6jsa4b" path="res://assets/characters/Dragon - Fully Animated/Death/183.png" id="407_jwtpk"]
+[ext_resource type="Texture2D" uid="uid://cwwo6kgogutot" path="res://assets/characters/Dragon - Fully Animated/Death/184.png" id="408_vjtuo"]
+[ext_resource type="Texture2D" uid="uid://cfkiklsnmu7vb" path="res://assets/characters/Dragon - Fully Animated/Death/185.png" id="409_xytic"]
+[ext_resource type="Texture2D" uid="uid://diac3owgiwxex" path="res://assets/characters/Dragon - Fully Animated/Death/186.png" id="410_7xydk"]
+[ext_resource type="Texture2D" uid="uid://s4344lq4jmno" path="res://assets/characters/Dragon - Fully Animated/Death/187.png" id="411_4yov6"]
+[ext_resource type="Texture2D" uid="uid://37wu7wgygdma" path="res://assets/characters/Dragon - Fully Animated/Death/188.png" id="412_nwy4m"]
+[ext_resource type="Texture2D" uid="uid://0rowpfveicdr" path="res://assets/characters/Dragon - Fully Animated/Death/189.png" id="413_dha14"]
+[ext_resource type="Texture2D" uid="uid://rf1ci6r87ap2" path="res://assets/characters/Dragon - Fully Animated/Death/190.png" id="414_gehao"]
+[ext_resource type="Texture2D" uid="uid://chis25v8dbert" path="res://assets/characters/Dragon - Fully Animated/Death/191.png" id="415_sel87"]
+[ext_resource type="Texture2D" uid="uid://dccdkf8oacmjy" path="res://assets/characters/Dragon - Fully Animated/Death/192.png" id="416_ssafo"]
+[ext_resource type="Texture2D" uid="uid://cx1sow0ptlbt2" path="res://assets/characters/Dragon - Fully Animated/Death/193.png" id="417_cqdqi"]
+[ext_resource type="Texture2D" uid="uid://dfs328x5b3bq1" path="res://assets/characters/Dragon - Fully Animated/Death/194.png" id="418_3f13x"]
+[ext_resource type="Texture2D" uid="uid://c1gguar48d6io" path="res://assets/characters/Dragon - Fully Animated/Death/195.png" id="419_4tlpc"]
+[ext_resource type="Texture2D" uid="uid://c0s8jg6ctvrqj" path="res://assets/characters/Dragon - Fully Animated/Death/196.png" id="420_2lh33"]
+[ext_resource type="Texture2D" uid="uid://dmypvke6jwtu7" path="res://assets/characters/Dragon - Fully Animated/Death/197.png" id="421_eagta"]
+[ext_resource type="Texture2D" uid="uid://m1e3mmajvqkl" path="res://assets/characters/Dragon - Fully Animated/Death/198.png" id="422_4jldl"]
+[ext_resource type="Texture2D" uid="uid://wf3tjku6ro4d" path="res://assets/characters/Dragon - Fully Animated/Death/199.png" id="423_7lm83"]
+[ext_resource type="Texture2D" uid="uid://c7kyu50xur7qo" path="res://assets/characters/Dragon - Fully Animated/Death/200.png" id="424_2u8xv"]
+[ext_resource type="Texture2D" uid="uid://3kihoccq04bh" path="res://assets/characters/Dragon - Fully Animated/Death/201.png" id="425_o5gqt"]
+[ext_resource type="Texture2D" uid="uid://cx5pmn32ko33j" path="res://assets/characters/Dragon - Fully Animated/Death/202.png" id="426_bkp8i"]
+[ext_resource type="Texture2D" uid="uid://bntmm3e8h8fvl" path="res://assets/characters/Dragon - Fully Animated/Death/203.png" id="427_6gjxs"]
+[ext_resource type="Texture2D" uid="uid://q2k324etv6eo" path="res://assets/characters/Dragon - Fully Animated/Death/204.png" id="428_3e3kn"]
+[ext_resource type="Texture2D" uid="uid://cbhruaxsh3xjj" path="res://assets/characters/Dragon - Fully Animated/Death/205.png" id="429_d6hhx"]
+[ext_resource type="Texture2D" uid="uid://cohdm1bba2hwg" path="res://assets/characters/Dragon - Fully Animated/Death/206.png" id="430_s77tv"]
+[ext_resource type="Texture2D" uid="uid://cl4fsf8f6lngo" path="res://assets/characters/Dragon - Fully Animated/Death/207.png" id="431_w515d"]
+[ext_resource type="Texture2D" uid="uid://bj1rjpespte75" path="res://assets/characters/Dragon - Fully Animated/Death/208.png" id="432_vu6dg"]
+[ext_resource type="Texture2D" uid="uid://cswxbnmmi7ah1" path="res://assets/characters/Dragon - Fully Animated/Death/209.png" id="433_72kko"]
+[ext_resource type="Texture2D" uid="uid://cvp3petnv008n" path="res://assets/characters/Dragon - Fully Animated/Death/210.png" id="434_2w4yc"]
+[ext_resource type="Texture2D" uid="uid://dss2g4beisfl7" path="res://assets/characters/Dragon - Fully Animated/Death/211.png" id="435_bssfq"]
+[ext_resource type="Texture2D" uid="uid://btsa7yfx1puo3" path="res://assets/characters/Dragon - Fully Animated/Death/212.png" id="436_1wjd1"]
+[ext_resource type="Texture2D" uid="uid://oe5gobtudar3" path="res://assets/characters/Dragon - Fully Animated/Death/213.png" id="437_ap1sl"]
+[ext_resource type="Texture2D" uid="uid://cpdl4lp5r3wq4" path="res://assets/characters/Dragon - Fully Animated/Death/214.png" id="438_ww8no"]
+[ext_resource type="Texture2D" uid="uid://c4wssmx0g2pt0" path="res://assets/characters/Dragon - Fully Animated/Death/215.png" id="439_3otjd"]
+[ext_resource type="Texture2D" uid="uid://bhoh660t2i1i7" path="res://assets/characters/Dragon - Fully Animated/Death/216.png" id="440_w5yye"]
+[ext_resource type="Texture2D" uid="uid://bf3pgjfj7l3td" path="res://assets/characters/Dragon - Fully Animated/Death/217.png" id="441_kvkda"]
+[ext_resource type="Texture2D" uid="uid://3awujcyrhgv0" path="res://assets/characters/Dragon - Fully Animated/Death/218.png" id="442_k6oe7"]
+[ext_resource type="Texture2D" uid="uid://crsj7vfb64qig" path="res://assets/characters/Dragon - Fully Animated/Death/219.png" id="443_y6kqr"]
+[ext_resource type="Texture2D" uid="uid://cax2ubub07r3s" path="res://assets/characters/Dragon - Fully Animated/Death/220.png" id="444_0irq8"]
+[ext_resource type="Texture2D" uid="uid://62h3gmcwxlcv" path="res://assets/characters/Dragon - Fully Animated/Death/221.png" id="445_ybv8w"]
+[ext_resource type="Texture2D" uid="uid://cc4epoy7luafw" path="res://assets/characters/Dragon - Fully Animated/Death/222.png" id="446_eudlw"]
+[ext_resource type="Texture2D" uid="uid://383jfg882f7q" path="res://assets/characters/Dragon - Fully Animated/Death/223.png" id="447_w0038"]
+[ext_resource type="Texture2D" uid="uid://b7nqexy45gwjq" path="res://assets/characters/Dragon - Fully Animated/Death/224.png" id="448_lmd3h"]
+[ext_resource type="Texture2D" uid="uid://bkke47bnkldi5" path="res://assets/characters/Dragon - Fully Animated/Death/225.png" id="449_i16ve"]
+[ext_resource type="Texture2D" uid="uid://4vkd05hxfe5n" path="res://assets/characters/Dragon - Fully Animated/Death/226.png" id="450_ir3mv"]
+[ext_resource type="Texture2D" uid="uid://r02mnmf1n3ws" path="res://assets/characters/Dragon - Fully Animated/Death/227.png" id="451_0d6wd"]
+[ext_resource type="Texture2D" uid="uid://douniyc7tcdru" path="res://assets/characters/Dragon - Fully Animated/Death/228.png" id="452_42psb"]
+[ext_resource type="Texture2D" uid="uid://btlmkabhe2cfj" path="res://assets/characters/Dragon - Fully Animated/Death/229.png" id="453_kdhix"]
+[ext_resource type="Texture2D" uid="uid://bm3u60hrjs1yl" path="res://assets/characters/Dragon - Fully Animated/Death/230.png" id="454_c0p2n"]
+[ext_resource type="Texture2D" uid="uid://cuuyvj48iorqp" path="res://assets/characters/Dragon - Fully Animated/Death/231.png" id="455_105t1"]
+[ext_resource type="Texture2D" uid="uid://bcx5ajv401k4o" path="res://assets/characters/Dragon - Fully Animated/Death/232.png" id="456_eefnu"]
+[ext_resource type="Texture2D" uid="uid://ysjk4ld1pndd" path="res://assets/characters/Dragon - Fully Animated/Death/233.png" id="457_e6ylg"]
+[ext_resource type="Texture2D" uid="uid://c8q8oipttyhd8" path="res://assets/characters/Dragon - Fully Animated/Death/234.png" id="458_rqhgn"]
+[ext_resource type="Texture2D" uid="uid://coxac1d0urqih" path="res://assets/characters/Dragon - Fully Animated/Death/235.png" id="459_l8se1"]
+[ext_resource type="Texture2D" uid="uid://bndw8c0djif2b" path="res://assets/characters/Dragon - Fully Animated/Death/236.png" id="460_wd24k"]
+[ext_resource type="Texture2D" uid="uid://dm8h6vcti4syj" path="res://assets/characters/Dragon - Fully Animated/Death/237.png" id="461_h4bsw"]
+[ext_resource type="Texture2D" uid="uid://dwm0r3y3xpp6r" path="res://assets/characters/Dragon - Fully Animated/Death/238.png" id="462_6513v"]
+[ext_resource type="Texture2D" uid="uid://h7r707rbmibi" path="res://assets/characters/Dragon - Fully Animated/Death/239.png" id="463_pebra"]
+[ext_resource type="Texture2D" uid="uid://c70mvpq1yyoeu" path="res://assets/characters/Dragon - Fully Animated/Death/240.png" id="464_4xt1e"]
+[ext_resource type="Texture2D" uid="uid://bn4ysj7wvkddg" path="res://assets/characters/Dragon - Fully Animated/Death/241.png" id="465_3p1c5"]
+[ext_resource type="Texture2D" uid="uid://c8im85d6470e8" path="res://assets/characters/Dragon - Fully Animated/Death/242.png" id="466_gdshp"]
+[ext_resource type="Texture2D" uid="uid://ee2vcqfoiedp" path="res://assets/characters/Dragon - Fully Animated/Death/243.png" id="467_06rsc"]
+[ext_resource type="Texture2D" uid="uid://d3x24mnvt7ib5" path="res://assets/characters/Dragon - Fully Animated/Death/244.png" id="468_g56jv"]
+[ext_resource type="Texture2D" uid="uid://c5hmbut5uwblv" path="res://assets/characters/Dragon - Fully Animated/Death/245.png" id="469_qi3wv"]
+[ext_resource type="Texture2D" uid="uid://cc744i22geowm" path="res://assets/characters/Dragon - Fully Animated/Death/246.png" id="470_dx1ff"]
+[ext_resource type="Texture2D" uid="uid://ciri4fkvtogt" path="res://assets/characters/Dragon - Fully Animated/Death/247.png" id="471_5451i"]
+[ext_resource type="Texture2D" uid="uid://bckpwkp8o7boi" path="res://assets/characters/Dragon - Fully Animated/Death/248.png" id="472_6dvpc"]
+[ext_resource type="Texture2D" uid="uid://bx3b8h0je7e7c" path="res://assets/characters/Dragon - Fully Animated/Death/249.png" id="473_lcxf6"]
+[ext_resource type="Texture2D" uid="uid://r7tkcm6ax2un" path="res://assets/characters/Dragon - Fully Animated/Death/250.png" id="474_stw6y"]
+[ext_resource type="Texture2D" uid="uid://dhpn6dxo7sy0c" path="res://assets/characters/Dragon - Fully Animated/Death/251.png" id="475_dkfp4"]
+[ext_resource type="Texture2D" uid="uid://bvsiswsg4vqai" path="res://assets/characters/Dragon - Fully Animated/Death/252.png" id="476_8w2jo"]
+[ext_resource type="Texture2D" uid="uid://cea42u2yx4whs" path="res://assets/characters/Dragon - Fully Animated/Death/253.png" id="477_cjusl"]
+[ext_resource type="Texture2D" uid="uid://d0ywnujtjn4mh" path="res://assets/characters/Dragon - Fully Animated/Death/254.png" id="478_1klox"]
+[ext_resource type="Texture2D" uid="uid://clt3lbcpj4nrg" path="res://assets/characters/Dragon - Fully Animated/Death/255.png" id="479_yxaxr"]
+[ext_resource type="Texture2D" uid="uid://bpw6g203od8r6" path="res://assets/characters/Dragon - Fully Animated/Death/256.png" id="480_vprvg"]
+[ext_resource type="Texture2D" uid="uid://c1uox4yuimche" path="res://assets/characters/Dragon - Fully Animated/Death/257.png" id="481_8ip14"]
+[ext_resource type="Texture2D" uid="uid://c8u10fmerrer4" path="res://assets/characters/Dragon - Fully Animated/Death/258.png" id="482_okpub"]
+[ext_resource type="Texture2D" uid="uid://cnf5q7lerstqo" path="res://assets/characters/Dragon - Fully Animated/Death/259.png" id="483_xpgva"]
+[ext_resource type="Texture2D" uid="uid://cxchv3qsv54im" path="res://assets/characters/Dragon - Fully Animated/Death/260.png" id="484_v6xet"]
+[ext_resource type="Texture2D" uid="uid://bggxh3hnmfk7j" path="res://assets/characters/Dragon - Fully Animated/Death/261.png" id="485_m5iko"]
+[ext_resource type="Texture2D" uid="uid://i10yj5muasvw" path="res://assets/characters/Dragon - Fully Animated/Death/262.png" id="486_k8l60"]
+[ext_resource type="Texture2D" uid="uid://bo2dbi7wsoecl" path="res://assets/characters/Dragon - Fully Animated/Death/263.png" id="487_rr71c"]
+[ext_resource type="Texture2D" uid="uid://boqu0rsgsmcyy" path="res://assets/characters/Dragon - Fully Animated/Death/264.png" id="488_m41po"]
+[ext_resource type="Texture2D" uid="uid://b5x1woex20f8i" path="res://assets/characters/Dragon - Fully Animated/Death/265.png" id="489_ydqhu"]
+[ext_resource type="Texture2D" uid="uid://c1neqt55ejwhb" path="res://assets/characters/Dragon - Fully Animated/Death/266.png" id="490_jm1jr"]
+[ext_resource type="Texture2D" uid="uid://cdeoqoshvpjan" path="res://assets/characters/Dragon - Fully Animated/Death/267.png" id="491_8il01"]
+[ext_resource type="Texture2D" uid="uid://ojvt6dufc525" path="res://assets/characters/Dragon - Fully Animated/Death/268.png" id="492_luvds"]
+[ext_resource type="Texture2D" uid="uid://240r50h1nr1k" path="res://assets/characters/Dragon - Fully Animated/Death/269.png" id="493_4g1ic"]
+[ext_resource type="Texture2D" uid="uid://8dhmuwjp8l30" path="res://assets/characters/Dragon - Fully Animated/Death/270.png" id="494_1n0kn"]
+[ext_resource type="Texture2D" uid="uid://dvxu1ei55nkk6" path="res://assets/characters/Dragon - Fully Animated/Death/271.png" id="495_rt2ye"]
+[ext_resource type="Texture2D" uid="uid://c23o01tfngpog" path="res://assets/characters/Dragon - Fully Animated/Death/272.png" id="496_duriu"]
+[ext_resource type="Texture2D" uid="uid://h5bxd7jrj7kl" path="res://assets/characters/Dragon - Fully Animated/Death/273.png" id="497_y62rk"]
+[ext_resource type="Texture2D" uid="uid://bfbrdmj5sy8am" path="res://assets/characters/Dragon - Fully Animated/Death/274.png" id="498_c0r20"]
+[ext_resource type="Texture2D" uid="uid://0je2k8p4i0my" path="res://assets/characters/Dragon - Fully Animated/Death/275.png" id="499_nsn68"]
+[ext_resource type="Texture2D" uid="uid://lvaixqmcda2r" path="res://assets/characters/Dragon - Fully Animated/Death/276.png" id="500_lq3yl"]
+[ext_resource type="Texture2D" uid="uid://cswp1r45j6j4g" path="res://assets/characters/Dragon - Fully Animated/Death/277.png" id="501_a5ied"]
+[ext_resource type="Texture2D" uid="uid://b4jtpkk43xjay" path="res://assets/characters/Dragon - Fully Animated/Death/278.png" id="502_moew3"]
+[ext_resource type="Texture2D" uid="uid://bqog3xkkpkfmv" path="res://assets/characters/Dragon - Fully Animated/Death/279.png" id="503_xsdbx"]
+[ext_resource type="Texture2D" uid="uid://x4mf67eatx37" path="res://assets/characters/Dragon - Fully Animated/Death/280.png" id="504_28yjv"]
+[ext_resource type="Texture2D" uid="uid://c6jnlyw68yw8i" path="res://assets/characters/Dragon - Fully Animated/Death/281.png" id="505_2lve7"]
+[ext_resource type="Texture2D" uid="uid://dh81a4qhixh6p" path="res://assets/characters/Dragon - Fully Animated/Death/282.png" id="506_3ux4w"]
+[ext_resource type="Texture2D" uid="uid://bk86me7fu1hff" path="res://assets/characters/Dragon - Fully Animated/Death/283.png" id="507_2wmm7"]
+[ext_resource type="Texture2D" uid="uid://cn0ynh3qlopsl" path="res://assets/characters/Dragon - Fully Animated/Death/284.png" id="508_1w5hg"]
+[ext_resource type="Texture2D" uid="uid://b3q0vw1fvyjhm" path="res://assets/characters/Dragon - Fully Animated/Death/285.png" id="509_hq6p8"]
+[ext_resource type="Texture2D" uid="uid://5oh2iu6750fb" path="res://assets/characters/Dragon - Fully Animated/Death/286.png" id="510_pu7mf"]
+[ext_resource type="Texture2D" uid="uid://mg27vjaa2qre" path="res://assets/characters/Dragon - Fully Animated/Death/287.png" id="511_shxo0"]
+[ext_resource type="Texture2D" uid="uid://clo4wxu0l6kiq" path="res://assets/characters/Dragon - Fully Animated/Death/288.png" id="512_2blko"]
+[ext_resource type="Texture2D" uid="uid://jlbvboiq56ph" path="res://assets/characters/Dragon - Fully Animated/Death/289.png" id="513_2b8sc"]
+[ext_resource type="Texture2D" uid="uid://cvks8hlxfg161" path="res://assets/characters/Dragon - Fully Animated/Death/290.png" id="514_uldoo"]
+[ext_resource type="Texture2D" uid="uid://bcmv8r8bkmenb" path="res://assets/characters/Dragon - Fully Animated/Death/291.png" id="515_uw8jc"]
+[ext_resource type="Texture2D" uid="uid://7n47t7d27vyy" path="res://assets/characters/Dragon - Fully Animated/Death/292.png" id="516_284s5"]
+[ext_resource type="Texture2D" uid="uid://bo3bswfvh03k7" path="res://assets/characters/Dragon - Fully Animated/Death/293.png" id="517_l8rds"]
+[ext_resource type="Texture2D" uid="uid://6uesvnildrjl" path="res://assets/characters/Dragon - Fully Animated/Death/294.png" id="518_y27ul"]
+[ext_resource type="Texture2D" uid="uid://b23118fl3naq8" path="res://assets/characters/Dragon - Fully Animated/Death/295.png" id="519_rm6vt"]
+[ext_resource type="Texture2D" uid="uid://dctxx2tnhaebc" path="res://assets/characters/Dragon - Fully Animated/Death/296.png" id="520_1uhaa"]
+[ext_resource type="Texture2D" uid="uid://c2pwhrwdl8ic8" path="res://assets/characters/Dragon - Fully Animated/Death/297.png" id="521_et2kd"]
+[ext_resource type="Texture2D" uid="uid://l0kog1500gwv" path="res://assets/characters/Dragon - Fully Animated/Death/298.png" id="522_ca7pi"]
+[ext_resource type="Texture2D" uid="uid://byljg7206gskg" path="res://assets/characters/Dragon - Fully Animated/Death/299.png" id="523_rqv2b"]
+[ext_resource type="Texture2D" uid="uid://cr30bboomokjs" path="res://assets/characters/Dragon - Fully Animated/Death/300.png" id="524_2sc65"]
+[ext_resource type="Texture2D" uid="uid://dj4bbmw35kf2w" path="res://assets/characters/Dragon - Fully Animated/Death/301.png" id="525_yt8hy"]
+[ext_resource type="Texture2D" uid="uid://b7xm4ypr4oft8" path="res://assets/characters/Dragon - Fully Animated/Idle/001.png" id="526_c5j1o"]
+[ext_resource type="Texture2D" uid="uid://uvmiscjoi1c2" path="res://assets/characters/Dragon - Fully Animated/Idle/002.png" id="527_u0hxo"]
+[ext_resource type="Texture2D" uid="uid://dbwidvr17ivr6" path="res://assets/characters/Dragon - Fully Animated/Idle/003.png" id="528_qq8gs"]
+[ext_resource type="Texture2D" uid="uid://dkvvmxnhitt3" path="res://assets/characters/Dragon - Fully Animated/Idle/004.png" id="529_ybqj2"]
+[ext_resource type="Texture2D" uid="uid://bwjbt771jugmo" path="res://assets/characters/Dragon - Fully Animated/Idle/005.png" id="530_g4k5q"]
+[ext_resource type="Texture2D" uid="uid://bqdxrn6qj4aqd" path="res://assets/characters/Dragon - Fully Animated/Idle/006.png" id="531_istbx"]
+[ext_resource type="Texture2D" uid="uid://c84b18r8f7h5l" path="res://assets/characters/Dragon - Fully Animated/Idle/007.png" id="532_1kh25"]
+[ext_resource type="Texture2D" uid="uid://nx65efsv27nr" path="res://assets/characters/Dragon - Fully Animated/Idle/008.png" id="533_8lk1q"]
+[ext_resource type="Texture2D" uid="uid://i8gdcqquvyyd" path="res://assets/characters/Dragon - Fully Animated/Idle/009.png" id="534_gyi41"]
+[ext_resource type="Texture2D" uid="uid://bst6l4rl124vf" path="res://assets/characters/Dragon - Fully Animated/Idle/010.png" id="535_arw51"]
+[ext_resource type="Texture2D" uid="uid://jlbiax8r2a3l" path="res://assets/characters/Dragon - Fully Animated/Idle/011.png" id="536_3mfqx"]
+[ext_resource type="Texture2D" uid="uid://ysflsjtim2h5" path="res://assets/characters/Dragon - Fully Animated/Idle/012.png" id="537_xt85c"]
+[ext_resource type="Texture2D" uid="uid://bmaeciw4af3ua" path="res://assets/characters/Dragon - Fully Animated/Idle/013.png" id="538_ond4c"]
+[ext_resource type="Texture2D" uid="uid://c8g7bfbkbgwjf" path="res://assets/characters/Dragon - Fully Animated/Idle/014.png" id="539_fq5yj"]
+[ext_resource type="Texture2D" uid="uid://du4ulqsrjkcg2" path="res://assets/characters/Dragon - Fully Animated/Idle/015.png" id="540_giy6a"]
+[ext_resource type="Texture2D" uid="uid://depnskmtd8jgk" path="res://assets/characters/Dragon - Fully Animated/Idle/016.png" id="541_0b4sj"]
+[ext_resource type="Texture2D" uid="uid://dffj8rt4xs2al" path="res://assets/characters/Dragon - Fully Animated/Idle/017.png" id="542_fxd0l"]
+[ext_resource type="Texture2D" uid="uid://devt28gr4ksi0" path="res://assets/characters/Dragon - Fully Animated/Idle/018.png" id="543_0ga25"]
+[ext_resource type="Texture2D" uid="uid://cr3mtqew4iuoj" path="res://assets/characters/Dragon - Fully Animated/Idle/019.png" id="544_pt06x"]
+[ext_resource type="Texture2D" uid="uid://v1smagybhxn8" path="res://assets/characters/Dragon - Fully Animated/Idle/020.png" id="545_bs6f2"]
+[ext_resource type="Texture2D" uid="uid://dwbe70ut3yk0e" path="res://assets/characters/Dragon - Fully Animated/Idle/021.png" id="546_lv5hu"]
+[ext_resource type="Texture2D" uid="uid://d26mav614th6" path="res://assets/characters/Dragon - Fully Animated/Idle/022.png" id="547_6kygy"]
+[ext_resource type="Texture2D" uid="uid://cem8xb67m5sve" path="res://assets/characters/Dragon - Fully Animated/Idle/023.png" id="548_him1k"]
+[ext_resource type="Texture2D" uid="uid://c71v2vpw5y3mt" path="res://assets/characters/Dragon - Fully Animated/Idle/024.png" id="549_pkgel"]
+[ext_resource type="Texture2D" uid="uid://dt0bscp4q05qu" path="res://assets/characters/Dragon - Fully Animated/Idle/025.png" id="550_uwfw6"]
+[ext_resource type="Texture2D" uid="uid://dvf7ch1pcqte8" path="res://assets/characters/Dragon - Fully Animated/Idle/026.png" id="551_4v66o"]
+[ext_resource type="Texture2D" uid="uid://bbvtd0daho6l5" path="res://assets/characters/Dragon - Fully Animated/Idle/027.png" id="552_qxgo1"]
+[ext_resource type="Texture2D" uid="uid://cxeip71mics60" path="res://assets/characters/Dragon - Fully Animated/Idle/028.png" id="553_db58a"]
+[ext_resource type="Texture2D" uid="uid://bxpa5ijto40rt" path="res://assets/characters/Dragon - Fully Animated/Idle/029.png" id="554_4sf6t"]
+[ext_resource type="Texture2D" uid="uid://cemq26oecurkk" path="res://assets/characters/Dragon - Fully Animated/Idle/030.png" id="555_j6a1k"]
+[ext_resource type="Texture2D" uid="uid://qs5tkwfsuwcw" path="res://assets/characters/Dragon - Fully Animated/Idle/031.png" id="556_yynx8"]
+[ext_resource type="Texture2D" uid="uid://cqvumc2rfjwyr" path="res://assets/characters/Dragon - Fully Animated/Idle/032.png" id="557_0nooj"]
+[ext_resource type="Texture2D" uid="uid://beegfuo2chfui" path="res://assets/characters/Dragon - Fully Animated/Idle/033.png" id="558_lagra"]
+[ext_resource type="Texture2D" uid="uid://jr37mu4tqjhn" path="res://assets/characters/Dragon - Fully Animated/Idle/034.png" id="559_4diq4"]
+[ext_resource type="Texture2D" uid="uid://d2r2sriyvpyf6" path="res://assets/characters/Dragon - Fully Animated/Idle/035.png" id="560_kwi7m"]
+[ext_resource type="Texture2D" uid="uid://c3jio5uvicgpa" path="res://assets/characters/Dragon - Fully Animated/Idle/036.png" id="561_ygbld"]
+[ext_resource type="Texture2D" uid="uid://l60u402bwxlr" path="res://assets/characters/Dragon - Fully Animated/Idle/037.png" id="562_4gwtr"]
+[ext_resource type="Texture2D" uid="uid://dobsk7p102tfu" path="res://assets/characters/Dragon - Fully Animated/Idle/038.png" id="563_5i5gi"]
+[ext_resource type="Texture2D" uid="uid://b25p7iyvf6xhx" path="res://assets/characters/Dragon - Fully Animated/Idle/039.png" id="564_1ctn2"]
+[ext_resource type="Texture2D" uid="uid://vfpb5wbbriqx" path="res://assets/characters/Dragon - Fully Animated/Idle/040.png" id="565_y2w1c"]
+[ext_resource type="Texture2D" uid="uid://yatla1xtr5vw" path="res://assets/characters/Dragon - Fully Animated/Idle/041.png" id="566_lefl4"]
+[ext_resource type="Texture2D" uid="uid://dnei7pw773nxq" path="res://assets/characters/Dragon - Fully Animated/Idle/042.png" id="567_y0rn4"]
+[ext_resource type="Texture2D" uid="uid://cca2wqsln0ips" path="res://assets/characters/Dragon - Fully Animated/Idle/043.png" id="568_g3x15"]
+[ext_resource type="Texture2D" uid="uid://b5t57omykpka6" path="res://assets/characters/Dragon - Fully Animated/Idle/044.png" id="569_ey133"]
+[ext_resource type="Texture2D" uid="uid://b0g22bwgal7hh" path="res://assets/characters/Dragon - Fully Animated/Idle/045.png" id="570_qstgy"]
+[ext_resource type="Texture2D" uid="uid://c68udddc6agwk" path="res://assets/characters/Dragon - Fully Animated/Idle/046.png" id="571_dsff6"]
+[ext_resource type="Texture2D" uid="uid://bocko1qn2qu00" path="res://assets/characters/Dragon - Fully Animated/Idle/047.png" id="572_gnx4q"]
+[ext_resource type="Texture2D" uid="uid://dgxce5uo75mva" path="res://assets/characters/Dragon - Fully Animated/Idle/048.png" id="573_yxny4"]
+[ext_resource type="Texture2D" uid="uid://vmlcshoxhggm" path="res://assets/characters/Dragon - Fully Animated/Idle/049.png" id="574_ofvd3"]
+[ext_resource type="Texture2D" uid="uid://cjhxmeqxj20jw" path="res://assets/characters/Dragon - Fully Animated/Idle/050.png" id="575_rpso6"]
+[ext_resource type="Texture2D" uid="uid://clxg105p2rlwi" path="res://assets/characters/Dragon - Fully Animated/Idle/051.png" id="576_d4kn8"]
+[ext_resource type="Texture2D" uid="uid://6bln8itpi1jj" path="res://assets/characters/Dragon - Fully Animated/Idle/052.png" id="577_4wa2m"]
+[ext_resource type="Texture2D" uid="uid://bvfp66oco1l27" path="res://assets/characters/Dragon - Fully Animated/Idle/053.png" id="578_6twm7"]
+[ext_resource type="Texture2D" uid="uid://djyjq11u5iasd" path="res://assets/characters/Dragon - Fully Animated/Idle/054.png" id="579_8ftvb"]
+[ext_resource type="Texture2D" uid="uid://ba6u52p6rkp46" path="res://assets/characters/Dragon - Fully Animated/Idle/055.png" id="580_54ujb"]
+[ext_resource type="Texture2D" uid="uid://bob71js37ws8d" path="res://assets/characters/Dragon - Fully Animated/Idle/056.png" id="581_0pxlv"]
+[ext_resource type="Texture2D" uid="uid://cu4q06e1342mf" path="res://assets/characters/Dragon - Fully Animated/Idle/057.png" id="582_66feu"]
+[ext_resource type="Texture2D" uid="uid://q3op1tud1jdy" path="res://assets/characters/Dragon - Fully Animated/Idle/058.png" id="583_10xbx"]
+[ext_resource type="Texture2D" uid="uid://yq5qkeya0p7i" path="res://assets/characters/Dragon - Fully Animated/Idle/059.png" id="584_olls6"]
+[ext_resource type="Texture2D" uid="uid://mr4ih8s1hayb" path="res://assets/characters/Dragon - Fully Animated/Idle/060.png" id="585_yjd8d"]
+[ext_resource type="Texture2D" uid="uid://c7oa63qn2mvmp" path="res://assets/characters/Dragon - Fully Animated/Idle/061.png" id="586_pcwch"]
+[ext_resource type="Texture2D" uid="uid://3ukvjflvqk6d" path="res://assets/characters/Dragon - Fully Animated/Idle/062.png" id="587_uk1xy"]
+[ext_resource type="Texture2D" uid="uid://dcqnl34j18kgr" path="res://assets/characters/Dragon - Fully Animated/Idle/063.png" id="588_su1q0"]
+[ext_resource type="Texture2D" uid="uid://c3npcvnr2qmvn" path="res://assets/characters/Dragon - Fully Animated/Idle/064.png" id="589_61ylw"]
+[ext_resource type="Texture2D" uid="uid://dph7uvcsandmj" path="res://assets/characters/Dragon - Fully Animated/Idle/065.png" id="590_4n7jo"]
+[ext_resource type="Texture2D" uid="uid://bvc03bgbnq2od" path="res://assets/characters/Dragon - Fully Animated/Idle/066.png" id="591_urakq"]
+[ext_resource type="Texture2D" uid="uid://dclkqe628ra3n" path="res://assets/characters/Dragon - Fully Animated/Idle/067.png" id="592_a0n81"]
+[ext_resource type="Texture2D" uid="uid://bv5fbw11k8wrh" path="res://assets/characters/Dragon - Fully Animated/Idle/068.png" id="593_v8kha"]
+[ext_resource type="Texture2D" uid="uid://dyhwi68hiuxq5" path="res://assets/characters/Dragon - Fully Animated/Idle/069.png" id="594_355cl"]
+[ext_resource type="Texture2D" uid="uid://dxrfknjsha3c2" path="res://assets/characters/Dragon - Fully Animated/Idle/070.png" id="595_n0htw"]
+[ext_resource type="Texture2D" uid="uid://ddvwagx8ufqh3" path="res://assets/characters/Dragon - Fully Animated/Idle/071.png" id="596_ej05g"]
+[ext_resource type="Texture2D" uid="uid://du33dyn83ts1t" path="res://assets/characters/Dragon - Fully Animated/Idle/072.png" id="597_uaa8f"]
+[ext_resource type="Texture2D" uid="uid://b7o0pcf5vkxg0" path="res://assets/characters/Dragon - Fully Animated/Idle/073.png" id="598_lbitw"]
+[ext_resource type="Texture2D" uid="uid://bcjrocpefg0lx" path="res://assets/characters/Dragon - Fully Animated/Idle/074.png" id="599_x5o18"]
+[ext_resource type="Texture2D" uid="uid://c7hih1nqn51f1" path="res://assets/characters/Dragon - Fully Animated/Idle/075.png" id="600_j186w"]
+[ext_resource type="Texture2D" uid="uid://vdpltj33gqpg" path="res://assets/characters/Dragon - Fully Animated/Idle/076.png" id="601_06y21"]
+[ext_resource type="Texture2D" uid="uid://vneyeqcd1t5i" path="res://assets/characters/Dragon - Fully Animated/Idle/077.png" id="602_2hql7"]
+[ext_resource type="Texture2D" uid="uid://iah40fidnlfj" path="res://assets/characters/Dragon - Fully Animated/Idle/078.png" id="603_oiseb"]
+[ext_resource type="Texture2D" uid="uid://bnpbtg44g6xx" path="res://assets/characters/Dragon - Fully Animated/Idle/079.png" id="604_kx1qa"]
+[ext_resource type="Texture2D" uid="uid://dgyxqwivv3t3m" path="res://assets/characters/Dragon - Fully Animated/Idle/080.png" id="605_36tj5"]
+[ext_resource type="Texture2D" uid="uid://8uvaldqpqh40" path="res://assets/characters/Dragon - Fully Animated/Idle/081.png" id="606_n3wej"]
+[ext_resource type="Texture2D" uid="uid://drq06aru82ry7" path="res://assets/characters/Dragon - Fully Animated/Idle/082.png" id="607_te2hu"]
+[ext_resource type="Texture2D" uid="uid://jpfqoysfsfat" path="res://assets/characters/Dragon - Fully Animated/Idle/083.png" id="608_d6tyk"]
+[ext_resource type="Texture2D" uid="uid://cgkbu1t1cbm4w" path="res://assets/characters/Dragon - Fully Animated/Idle/084.png" id="609_akhhn"]
+[ext_resource type="Texture2D" uid="uid://bbx4ksxrw1y6g" path="res://assets/characters/Dragon - Fully Animated/Idle/085.png" id="610_gbtc1"]
+[ext_resource type="Texture2D" uid="uid://yy4sas21kn6i" path="res://assets/characters/Dragon - Fully Animated/Idle/086.png" id="611_aupia"]
+[ext_resource type="Texture2D" uid="uid://2yvk0mg2hjer" path="res://assets/characters/Dragon - Fully Animated/Idle/087.png" id="612_r3x1w"]
+[ext_resource type="Texture2D" uid="uid://c0qvffd572005" path="res://assets/characters/Dragon - Fully Animated/Idle/088.png" id="613_uv5l3"]
+[ext_resource type="Texture2D" uid="uid://cgmx08eqiljl4" path="res://assets/characters/Dragon - Fully Animated/Idle/089.png" id="614_rux4d"]
+[ext_resource type="Texture2D" uid="uid://b6crgxt08co0s" path="res://assets/characters/Dragon - Fully Animated/Idle/090.png" id="615_aimnn"]
+[ext_resource type="Texture2D" uid="uid://c080jjn7ymln1" path="res://assets/characters/Dragon - Fully Animated/Idle/091.png" id="616_ri534"]
+[ext_resource type="Texture2D" uid="uid://c7q5ekgnmkob4" path="res://assets/characters/Dragon - Fully Animated/Idle/092.png" id="617_8yc03"]
+[ext_resource type="Texture2D" uid="uid://x3i25gsakkui" path="res://assets/characters/Dragon - Fully Animated/Idle/093.png" id="618_g5v6e"]
+[ext_resource type="Texture2D" uid="uid://2bydeoef068a" path="res://assets/characters/Dragon - Fully Animated/Idle/094.png" id="619_jrypn"]
+[ext_resource type="Texture2D" uid="uid://cdbjaxf30qcrc" path="res://assets/characters/Dragon - Fully Animated/Idle/095.png" id="620_jn44h"]
+[ext_resource type="Texture2D" uid="uid://dr8g6grr4v04x" path="res://assets/characters/Dragon - Fully Animated/Idle/096.png" id="621_kevho"]
+[ext_resource type="Texture2D" uid="uid://c4qqc86ciobdi" path="res://assets/characters/Dragon - Fully Animated/Idle/097.png" id="622_vjgwa"]
+[ext_resource type="Texture2D" uid="uid://dbmuodogdrgq7" path="res://assets/characters/Dragon - Fully Animated/Idle/098.png" id="623_atwfd"]
+[ext_resource type="Texture2D" uid="uid://f51jcyidbndg" path="res://assets/characters/Dragon - Fully Animated/Idle/099.png" id="624_c7oh6"]
+[ext_resource type="Texture2D" uid="uid://1a5r5cduxood" path="res://assets/characters/Dragon - Fully Animated/Idle/100.png" id="625_6ln6w"]
+[ext_resource type="Texture2D" uid="uid://dk8unnts5ix05" path="res://assets/characters/Dragon - Fully Animated/Idle/101.png" id="626_3k7te"]
+[ext_resource type="Texture2D" uid="uid://1ie7t18rp4te" path="res://assets/characters/Dragon - Fully Animated/Idle/102.png" id="627_dvb88"]
+[ext_resource type="Texture2D" uid="uid://d3kkmyi2blp0s" path="res://assets/characters/Dragon - Fully Animated/Idle/103.png" id="628_ooukv"]
+[ext_resource type="Texture2D" uid="uid://b8n4rx3a2ki3u" path="res://assets/characters/Dragon - Fully Animated/Idle/104.png" id="629_kxh2b"]
+[ext_resource type="Texture2D" uid="uid://c7v8c5lxncuiy" path="res://assets/characters/Dragon - Fully Animated/Idle/105.png" id="630_0ibl3"]
+[ext_resource type="Texture2D" uid="uid://dx6i4x2urpfp5" path="res://assets/characters/Dragon - Fully Animated/Idle/106.png" id="631_kl3pn"]
+[ext_resource type="Texture2D" uid="uid://bin7lngmaa86l" path="res://assets/characters/Dragon - Fully Animated/Idle/107.png" id="632_sdwn5"]
+[ext_resource type="Texture2D" uid="uid://seyymjyktlcl" path="res://assets/characters/Dragon - Fully Animated/Idle/108.png" id="633_ckddi"]
+[ext_resource type="Texture2D" uid="uid://bhbm6rlodg463" path="res://assets/characters/Dragon - Fully Animated/Idle/109.png" id="634_sltff"]
+[ext_resource type="Texture2D" uid="uid://e467ox6xshte" path="res://assets/characters/Dragon - Fully Animated/Idle/110.png" id="635_soc4r"]
+[ext_resource type="Texture2D" uid="uid://ccur4fmyif3h4" path="res://assets/characters/Dragon - Fully Animated/Idle/111.png" id="636_0xbk4"]
+[ext_resource type="Texture2D" uid="uid://dbrl630xhp2gk" path="res://assets/characters/Dragon - Fully Animated/Idle/112.png" id="637_rcqbh"]
+[ext_resource type="Texture2D" uid="uid://bqeqwoc1wxtg6" path="res://assets/characters/Dragon - Fully Animated/Idle/113.png" id="638_d6wme"]
+[ext_resource type="Texture2D" uid="uid://jsdypke7pojy" path="res://assets/characters/Dragon - Fully Animated/Idle/114.png" id="639_nccsd"]
+[ext_resource type="Texture2D" uid="uid://btdo85p7v4cv5" path="res://assets/characters/Dragon - Fully Animated/Idle/115.png" id="640_8gnoc"]
+[ext_resource type="Texture2D" uid="uid://dbs7vc3vcdcey" path="res://assets/characters/Dragon - Fully Animated/Idle/116.png" id="641_8manh"]
+[ext_resource type="Texture2D" uid="uid://c070yhjyp3dl4" path="res://assets/characters/Dragon - Fully Animated/Idle/117.png" id="642_b1u3b"]
+[ext_resource type="Texture2D" uid="uid://ifmxegup83e6" path="res://assets/characters/Dragon - Fully Animated/Idle/118.png" id="643_tt7pu"]
+[ext_resource type="Texture2D" uid="uid://d0j1fq7grokac" path="res://assets/characters/Dragon - Fully Animated/Idle/119.png" id="644_duj32"]
+[ext_resource type="Texture2D" uid="uid://b60jn7l7q4t7q" path="res://assets/characters/Dragon - Fully Animated/Idle/120.png" id="645_mnk02"]
+[ext_resource type="Texture2D" uid="uid://d18oh4tyas4qf" path="res://assets/characters/Dragon - Fully Animated/Idle/121.png" id="646_v2fuv"]
+[ext_resource type="Texture2D" uid="uid://7jc1muk58lep" path="res://assets/characters/Dragon - Fully Animated/Idle/122.png" id="647_na2p0"]
+[ext_resource type="Texture2D" uid="uid://cpdhuvb2xabvd" path="res://assets/characters/Dragon - Fully Animated/Idle/123.png" id="648_6811n"]
+[ext_resource type="Texture2D" uid="uid://dc0th0dsvpxgb" path="res://assets/characters/Dragon - Fully Animated/Idle/124.png" id="649_18owo"]
+[ext_resource type="Texture2D" uid="uid://cvkk2m6nt7w57" path="res://assets/characters/Dragon - Fully Animated/Idle/125.png" id="650_jp712"]
+[ext_resource type="Texture2D" uid="uid://dd5xhev5bi4yg" path="res://assets/characters/Dragon - Fully Animated/Idle/126.png" id="651_ha7c7"]
+[ext_resource type="Texture2D" uid="uid://kg1a1dx5oy" path="res://assets/characters/Dragon - Fully Animated/Idle/127.png" id="652_8akfn"]
+[ext_resource type="Texture2D" uid="uid://blxabwuwmfdo8" path="res://assets/characters/Dragon - Fully Animated/Idle/128.png" id="653_n7x2e"]
+[ext_resource type="Texture2D" uid="uid://c7kubtuacatge" path="res://assets/characters/Dragon - Fully Animated/Idle/129.png" id="654_la5wq"]
+[ext_resource type="Texture2D" uid="uid://c550wqlpeuej1" path="res://assets/characters/Dragon - Fully Animated/Idle/130.png" id="655_tbkun"]
+[ext_resource type="Texture2D" uid="uid://dts0dyi1lt6d6" path="res://assets/characters/Dragon - Fully Animated/Idle/131.png" id="656_8vrg0"]
+[ext_resource type="Texture2D" uid="uid://dhlj8y5m82784" path="res://assets/characters/Dragon - Fully Animated/Idle/132.png" id="657_awvr7"]
+[ext_resource type="Texture2D" uid="uid://bjyxqm0l7vhe2" path="res://assets/characters/Dragon - Fully Animated/Idle/133.png" id="658_sjxpo"]
+[ext_resource type="Texture2D" uid="uid://bix7khqgd22rl" path="res://assets/characters/Dragon - Fully Animated/Idle/134.png" id="659_fx3em"]
+[ext_resource type="Texture2D" uid="uid://2oqw4c6xsf0x" path="res://assets/characters/Dragon - Fully Animated/Idle/135.png" id="660_l5ydf"]
+[ext_resource type="Texture2D" uid="uid://bx3ijpq2p7jyr" path="res://assets/characters/Dragon - Fully Animated/Idle/136.png" id="661_md227"]
+[ext_resource type="Texture2D" uid="uid://ccnob0i7uief" path="res://assets/characters/Dragon - Fully Animated/Idle/137.png" id="662_neku4"]
+[ext_resource type="Texture2D" uid="uid://ch6n8dyfoe5d2" path="res://assets/characters/Dragon - Fully Animated/Idle/138.png" id="663_qtn7p"]
+[ext_resource type="Texture2D" uid="uid://cxmwure8fllb4" path="res://assets/characters/Dragon - Fully Animated/Idle/139.png" id="664_xuwon"]
+[ext_resource type="Texture2D" uid="uid://q25lvh64fkmb" path="res://assets/characters/Dragon - Fully Animated/Idle/140.png" id="665_3ayua"]
+[ext_resource type="Texture2D" uid="uid://du5tc3enru4wu" path="res://assets/characters/Dragon - Fully Animated/Idle/141.png" id="666_dvs4t"]
+[ext_resource type="Texture2D" uid="uid://15xxct7ga8y0" path="res://assets/characters/Dragon - Fully Animated/Idle/142.png" id="667_w6h2k"]
+[ext_resource type="Texture2D" uid="uid://cs322rdgtud30" path="res://assets/characters/Dragon - Fully Animated/Idle/143.png" id="668_oyyrm"]
+[ext_resource type="Texture2D" uid="uid://bqw8gt4ncgw8i" path="res://assets/characters/Dragon - Fully Animated/Idle/144.png" id="669_5qcfo"]
+[ext_resource type="Texture2D" uid="uid://dwsqvvxipiq8i" path="res://assets/characters/Dragon - Fully Animated/Idle/145.png" id="670_c6a0u"]
+[ext_resource type="Texture2D" uid="uid://pqn8e5svunmq" path="res://assets/characters/Dragon - Fully Animated/Idle/146.png" id="671_u6kcv"]
+[ext_resource type="Texture2D" uid="uid://b4qtwjl2fpulh" path="res://assets/characters/Dragon - Fully Animated/Idle/147.png" id="672_3xwu1"]
+[ext_resource type="Texture2D" uid="uid://c6v50eet5rilk" path="res://assets/characters/Dragon - Fully Animated/Idle/148.png" id="673_5xoa0"]
+[ext_resource type="Texture2D" uid="uid://dcyowr7bbw7u3" path="res://assets/characters/Dragon - Fully Animated/Idle/149.png" id="674_qkukx"]
+[ext_resource type="Texture2D" uid="uid://ctfyeloyxpnku" path="res://assets/characters/Dragon - Fully Animated/Idle/150.png" id="675_dqv4a"]
+[ext_resource type="Texture2D" uid="uid://udmgx24bqh58" path="res://assets/characters/Dragon - Fully Animated/Idle/151.png" id="676_cb8sq"]
+[ext_resource type="Texture2D" uid="uid://5dw14pal4x82" path="res://assets/characters/Dragon - Fully Animated/Idle/152.png" id="677_xg06u"]
+[ext_resource type="Texture2D" uid="uid://ca0ruyxgctxfw" path="res://assets/characters/Dragon - Fully Animated/Idle/153.png" id="678_hxkmu"]
+[ext_resource type="Texture2D" uid="uid://cn8yqp6cj067o" path="res://assets/characters/Dragon - Fully Animated/Idle/154.png" id="679_ri3o5"]
+[ext_resource type="Texture2D" uid="uid://cf565csmqgh24" path="res://assets/characters/Dragon - Fully Animated/Idle/155.png" id="680_nh825"]
+[ext_resource type="Texture2D" uid="uid://b3hjtk58a5pmt" path="res://assets/characters/Dragon - Fully Animated/Idle/156.png" id="681_s62pq"]
+[ext_resource type="Texture2D" uid="uid://c6oade0gmreh" path="res://assets/characters/Dragon - Fully Animated/Idle/157.png" id="682_g48ut"]
+[ext_resource type="Texture2D" uid="uid://bdb0b18x02hhq" path="res://assets/characters/Dragon - Fully Animated/Idle/158.png" id="683_nc82j"]
+[ext_resource type="Texture2D" uid="uid://cr8v1nqwa2kqn" path="res://assets/characters/Dragon - Fully Animated/Idle/159.png" id="684_ek15h"]
+[ext_resource type="Texture2D" uid="uid://ccx0uqakmoa5d" path="res://assets/characters/Dragon - Fully Animated/Idle/160.png" id="685_vcpoh"]
+[ext_resource type="Texture2D" uid="uid://1j56dbpa03db" path="res://assets/characters/Dragon - Fully Animated/Idle/161.png" id="686_omfrv"]
+[ext_resource type="Texture2D" uid="uid://talgax5s2upa" path="res://assets/characters/Dragon - Fully Animated/Attack 2/001.png" id="827_rg5wb"]
+[ext_resource type="Texture2D" uid="uid://dcowb7bo35whf" path="res://assets/characters/Dragon - Fully Animated/Attack 2/002.png" id="828_tn04a"]
+[ext_resource type="Texture2D" uid="uid://da460swrp4617" path="res://assets/characters/Dragon - Fully Animated/Attack 2/003.png" id="829_0ffwu"]
+[ext_resource type="Texture2D" uid="uid://btxfw15hiw5ce" path="res://assets/characters/Dragon - Fully Animated/Attack 2/004.png" id="830_vrhki"]
+[ext_resource type="Texture2D" uid="uid://digib11toccgn" path="res://assets/characters/Dragon - Fully Animated/Attack 2/005.png" id="831_2l08f"]
+[ext_resource type="Texture2D" uid="uid://d1vwq0ndylcun" path="res://assets/characters/Dragon - Fully Animated/Attack 2/006.png" id="832_hmc46"]
+[ext_resource type="Texture2D" uid="uid://bl3j456v6pqb7" path="res://assets/characters/Dragon - Fully Animated/Attack 2/007.png" id="833_l3kpb"]
+[ext_resource type="Texture2D" uid="uid://blt3ls7xc8d4" path="res://assets/characters/Dragon - Fully Animated/Attack 2/008.png" id="834_vi7wn"]
+[ext_resource type="Texture2D" uid="uid://cyl0ngb0y8nnr" path="res://assets/characters/Dragon - Fully Animated/Attack 2/009.png" id="835_me527"]
+[ext_resource type="Texture2D" uid="uid://bbm8igww2iyvk" path="res://assets/characters/Dragon - Fully Animated/Attack 2/010.png" id="836_w8n0e"]
+[ext_resource type="Texture2D" uid="uid://d1po2kbipeye0" path="res://assets/characters/Dragon - Fully Animated/Attack 2/011.png" id="837_7rdt7"]
+[ext_resource type="Texture2D" uid="uid://je121o35pcmj" path="res://assets/characters/Dragon - Fully Animated/Attack 2/012.png" id="838_ywko4"]
+[ext_resource type="Texture2D" uid="uid://cfn01tkme6i2c" path="res://assets/characters/Dragon - Fully Animated/Attack 2/013.png" id="839_r8y3d"]
+[ext_resource type="Texture2D" uid="uid://bas8mtstp56uc" path="res://assets/characters/Dragon - Fully Animated/Attack 2/014.png" id="840_s3mvv"]
+[ext_resource type="Texture2D" uid="uid://6ay0ruel6wwi" path="res://assets/characters/Dragon - Fully Animated/Attack 2/015.png" id="841_wmmal"]
+[ext_resource type="Texture2D" uid="uid://glugo4jw8t0w" path="res://assets/characters/Dragon - Fully Animated/Attack 2/016.png" id="842_2yrlv"]
+[ext_resource type="Texture2D" uid="uid://bnaqxv10t02jw" path="res://assets/characters/Dragon - Fully Animated/Attack 2/017.png" id="843_fj5jm"]
+[ext_resource type="Texture2D" uid="uid://tgmxmi35qfgx" path="res://assets/characters/Dragon - Fully Animated/Attack 2/018.png" id="844_cp0qc"]
+[ext_resource type="Texture2D" uid="uid://dd7m2ubeb0nob" path="res://assets/characters/Dragon - Fully Animated/Attack 2/019.png" id="845_tahee"]
+[ext_resource type="Texture2D" uid="uid://unow5pi6s7q8" path="res://assets/characters/Dragon - Fully Animated/Attack 2/020.png" id="846_3ph1p"]
+[ext_resource type="Texture2D" uid="uid://m8fy1evq5351" path="res://assets/characters/Dragon - Fully Animated/Attack 2/021.png" id="847_ib6em"]
+[ext_resource type="Texture2D" uid="uid://byg2vpfqxkgpg" path="res://assets/characters/Dragon - Fully Animated/Attack 2/022.png" id="848_jp02h"]
+[ext_resource type="Texture2D" uid="uid://nunceppmrk8x" path="res://assets/characters/Dragon - Fully Animated/Attack 2/023.png" id="849_fqt4p"]
+[ext_resource type="Texture2D" uid="uid://cidr3e3edrpl1" path="res://assets/characters/Dragon - Fully Animated/Attack 2/024.png" id="850_rc8o3"]
+[ext_resource type="Texture2D" uid="uid://dg0ye4k8dpmpq" path="res://assets/characters/Dragon - Fully Animated/Attack 2/025.png" id="851_v2r1e"]
+[ext_resource type="Texture2D" uid="uid://cootfi8beltqq" path="res://assets/characters/Dragon - Fully Animated/Attack 2/026.png" id="852_2q6yd"]
+[ext_resource type="Texture2D" uid="uid://gt8t1g0gidjc" path="res://assets/characters/Dragon - Fully Animated/Attack 2/027.png" id="853_5owef"]
+[ext_resource type="Texture2D" uid="uid://ug2v145l23mb" path="res://assets/characters/Dragon - Fully Animated/Attack 2/028.png" id="854_nujld"]
+[ext_resource type="Texture2D" uid="uid://cvgnhxn16vy81" path="res://assets/characters/Dragon - Fully Animated/Attack 2/029.png" id="855_oyim4"]
+[ext_resource type="Texture2D" uid="uid://vq5khx3p1dse" path="res://assets/characters/Dragon - Fully Animated/Attack 2/030.png" id="856_ks5pw"]
+[ext_resource type="Texture2D" uid="uid://cuei8afynu4cr" path="res://assets/characters/Dragon - Fully Animated/Attack 2/031.png" id="857_lgkmh"]
+[ext_resource type="Texture2D" uid="uid://bqmenmfh0qll7" path="res://assets/characters/Dragon - Fully Animated/Attack 2/032.png" id="858_tr3wt"]
+[ext_resource type="Texture2D" uid="uid://cke381d5k6xqt" path="res://assets/characters/Dragon - Fully Animated/Attack 2/033.png" id="859_edscx"]
+[ext_resource type="Texture2D" uid="uid://co84o14jlalai" path="res://assets/characters/Dragon - Fully Animated/Attack 2/034.png" id="860_ytatu"]
+[ext_resource type="Texture2D" uid="uid://cjdceylswuxl3" path="res://assets/characters/Dragon - Fully Animated/Attack 2/035.png" id="861_1iciy"]
+[ext_resource type="Texture2D" uid="uid://cjee7qspdlh4l" path="res://assets/characters/Dragon - Fully Animated/Attack 2/036.png" id="862_ef0fy"]
+[ext_resource type="Texture2D" uid="uid://4m4jtdfk1l37" path="res://assets/characters/Dragon - Fully Animated/Attack 2/037.png" id="863_8ko1j"]
+[ext_resource type="Texture2D" uid="uid://btdtfxyv27xbv" path="res://assets/characters/Dragon - Fully Animated/Attack 2/038.png" id="864_rae7n"]
+[ext_resource type="Texture2D" uid="uid://bohvnhs3rte2k" path="res://assets/characters/Dragon - Fully Animated/Attack 2/039.png" id="865_pb1qe"]
+[ext_resource type="Texture2D" uid="uid://4pdp65qx3ufp" path="res://assets/characters/Dragon - Fully Animated/Attack 2/040.png" id="866_mskpf"]
+[ext_resource type="Texture2D" uid="uid://crtse51juf8pd" path="res://assets/characters/Dragon - Fully Animated/Attack 2/041.png" id="867_qyjo6"]
+[ext_resource type="Texture2D" uid="uid://ke74dl1aeq1p" path="res://assets/characters/Dragon - Fully Animated/Attack 2/042.png" id="868_rehmu"]
+[ext_resource type="Texture2D" uid="uid://cnytlyu6dnavi" path="res://assets/characters/Dragon - Fully Animated/Attack 2/043.png" id="869_bqvsb"]
+[ext_resource type="Texture2D" uid="uid://u17ncjdf00by" path="res://assets/characters/Dragon - Fully Animated/Attack 2/044.png" id="870_uwm48"]
+[ext_resource type="Texture2D" uid="uid://b5iajyox42lyw" path="res://assets/characters/Dragon - Fully Animated/Attack 2/045.png" id="871_mne5b"]
+[ext_resource type="Texture2D" uid="uid://brj1xxw2d42eu" path="res://assets/characters/Dragon - Fully Animated/Attack 2/046.png" id="872_1sgdm"]
+[ext_resource type="Texture2D" uid="uid://n1nt7c6lvph5" path="res://assets/characters/Dragon - Fully Animated/Attack 2/047.png" id="873_r5usa"]
+[ext_resource type="Texture2D" uid="uid://dvp1vodqvtx2p" path="res://assets/characters/Dragon - Fully Animated/Attack 2/048.png" id="874_0swst"]
+[ext_resource type="Texture2D" uid="uid://blrgww246m20p" path="res://assets/characters/Dragon - Fully Animated/Attack 2/049.png" id="875_8xdji"]
+[ext_resource type="Texture2D" uid="uid://lcsuoa2ty6t1" path="res://assets/characters/Dragon - Fully Animated/Attack 2/050.png" id="876_bfo5f"]
+[ext_resource type="Texture2D" uid="uid://djafam6lfjxr8" path="res://assets/characters/Dragon - Fully Animated/Attack 2/051.png" id="877_yg26k"]
+[ext_resource type="Texture2D" uid="uid://baribxnvqdeix" path="res://assets/characters/Dragon - Fully Animated/Attack 2/052.png" id="878_mtwk0"]
+[ext_resource type="Texture2D" uid="uid://bco3t4t6koi74" path="res://assets/characters/Dragon - Fully Animated/Attack 2/053.png" id="879_6njhb"]
+[ext_resource type="Texture2D" uid="uid://cvd3h2rvgdv2b" path="res://assets/characters/Dragon - Fully Animated/Attack 2/054.png" id="880_68v48"]
+[ext_resource type="Texture2D" uid="uid://nbf7l7l4c7nv" path="res://assets/characters/Dragon - Fully Animated/Attack 2/055.png" id="881_umgs8"]
+[ext_resource type="Texture2D" uid="uid://cvut2f0ootwth" path="res://assets/characters/Dragon - Fully Animated/Attack 2/056.png" id="882_jv3na"]
+[ext_resource type="Texture2D" uid="uid://bpikeavduxd0u" path="res://assets/characters/Dragon - Fully Animated/Attack 2/057.png" id="883_18hv6"]
+[ext_resource type="Texture2D" uid="uid://bilnvhybyeosy" path="res://assets/characters/Dragon - Fully Animated/Attack 2/058.png" id="884_wljma"]
+[ext_resource type="Texture2D" uid="uid://4ec8r1mceqv8" path="res://assets/characters/Dragon - Fully Animated/Attack 2/059.png" id="885_wjfos"]
+[ext_resource type="Texture2D" uid="uid://c75ergkba1u2s" path="res://assets/characters/Dragon - Fully Animated/Attack 2/060.png" id="886_vrm4d"]
+[ext_resource type="Texture2D" uid="uid://c7i38hyhqs1nr" path="res://assets/characters/Dragon - Fully Animated/Attack 2/061.png" id="887_8y61c"]
+[ext_resource type="Texture2D" uid="uid://binuvcnqtl7ke" path="res://assets/characters/Dragon - Fully Animated/Attack 2/062.png" id="888_na65s"]
+[ext_resource type="Texture2D" uid="uid://bgriq4jonxsyp" path="res://assets/characters/Dragon - Fully Animated/Attack 2/063.png" id="889_fsb04"]
+[ext_resource type="Texture2D" uid="uid://dghipgf0ty7gh" path="res://assets/characters/Dragon - Fully Animated/Attack 2/064.png" id="890_7dyrw"]
+[ext_resource type="AudioStream" uid="uid://de5t0vrmq4swt" path="res://assets/musics/dragon-roar-high-intensity-36564.mp3" id="890_j1od7"]
+[ext_resource type="AudioStream" uid="uid://bpe6oeg6mp36u" path="res://assets/musics/dragon-death-102428.mp3" id="891_f2gg4"]
+[ext_resource type="Texture2D" uid="uid://c4l4hrhlekn5e" path="res://assets/characters/Dragon - Fully Animated/Attack 2/065.png" id="891_qw7tk"]
+[ext_resource type="Texture2D" uid="uid://dkd0t8bm378vo" path="res://assets/characters/Dragon - Fully Animated/Attack 2/066.png" id="892_71tul"]
+[ext_resource type="Texture2D" uid="uid://c1spxw4hbc2cv" path="res://assets/characters/Dragon - Fully Animated/Attack 2/067.png" id="893_qr0m2"]
+[ext_resource type="Texture2D" uid="uid://bn3il3j056k2v" path="res://assets/characters/Dragon - Fully Animated/Attack 2/068.png" id="894_tp6hx"]
+[ext_resource type="Texture2D" uid="uid://beobtvc1qkufl" path="res://assets/characters/Dragon - Fully Animated/Attack 2/069.png" id="895_ato2h"]
+[ext_resource type="Texture2D" uid="uid://bddumiagq3r0q" path="res://assets/characters/Dragon - Fully Animated/Attack 2/070.png" id="896_yvsvr"]
+[ext_resource type="Texture2D" uid="uid://d2a5ujrccbk6t" path="res://assets/characters/Dragon - Fully Animated/Attack 2/071.png" id="897_k57t3"]
+[ext_resource type="Texture2D" uid="uid://c1w0ga00i4euy" path="res://assets/characters/Dragon - Fully Animated/Attack 2/072.png" id="898_yjw7l"]
+[ext_resource type="Texture2D" uid="uid://d1o6l34hrivcp" path="res://assets/characters/Dragon - Fully Animated/Attack 2/073.png" id="899_43sah"]
+[ext_resource type="Texture2D" uid="uid://bqvc6vakhhxwq" path="res://assets/characters/Dragon - Fully Animated/Attack 2/074.png" id="900_ghblx"]
+[ext_resource type="Texture2D" uid="uid://dgupectooaow5" path="res://assets/characters/Dragon - Fully Animated/Attack 2/075.png" id="901_65p5y"]
+[ext_resource type="Texture2D" uid="uid://doaw331qjqols" path="res://assets/characters/Dragon - Fully Animated/Attack 2/076.png" id="902_no8w0"]
+[ext_resource type="Texture2D" uid="uid://84t6nbn57l68" path="res://assets/characters/Dragon - Fully Animated/Attack 2/077.png" id="903_gxk3o"]
+[ext_resource type="Texture2D" uid="uid://47ka4jexkel5" path="res://assets/characters/Dragon - Fully Animated/Attack 2/078.png" id="904_tcn4n"]
+[ext_resource type="Texture2D" uid="uid://dm8aqinri6eoy" path="res://assets/characters/Dragon - Fully Animated/Attack 2/079.png" id="905_fdcl4"]
+[ext_resource type="Texture2D" uid="uid://dghw30cwewkfh" path="res://assets/characters/Dragon - Fully Animated/Attack 2/080.png" id="906_2vwyx"]
+[ext_resource type="Texture2D" uid="uid://cs37lf2m4k0l4" path="res://assets/characters/Dragon - Fully Animated/Attack 2/081.png" id="907_j20ex"]
+[ext_resource type="Texture2D" uid="uid://sis5dkyim807" path="res://assets/characters/Dragon - Fully Animated/Attack 2/082.png" id="908_bw0oj"]
+[ext_resource type="Texture2D" uid="uid://dj8yu35ocjuwa" path="res://assets/characters/Dragon - Fully Animated/Attack 2/083.png" id="909_nlucv"]
+[ext_resource type="Texture2D" uid="uid://ckcm4vxr68i04" path="res://assets/characters/Dragon - Fully Animated/Attack 2/084.png" id="910_52b3p"]
+[ext_resource type="Texture2D" uid="uid://dw48563wg1ghh" path="res://assets/characters/Dragon - Fully Animated/Attack 2/085.png" id="911_6hc8m"]
+[ext_resource type="Texture2D" uid="uid://ccff8u1258mdo" path="res://assets/characters/Dragon - Fully Animated/Attack 2/086.png" id="912_g74ir"]
+[ext_resource type="Texture2D" uid="uid://dsegperqw7fal" path="res://assets/characters/Dragon - Fully Animated/Attack 2/087.png" id="913_qjpr5"]
+[ext_resource type="Texture2D" uid="uid://puvi04gi7f43" path="res://assets/characters/Dragon - Fully Animated/Attack 2/088.png" id="914_k8652"]
+[ext_resource type="Texture2D" uid="uid://bgmmqkss7exvi" path="res://assets/characters/Dragon - Fully Animated/Attack 2/089.png" id="915_1kvky"]
+[ext_resource type="Texture2D" uid="uid://bawodcxt0se7a" path="res://assets/characters/Dragon - Fully Animated/Attack 2/090.png" id="916_pp2yv"]
+[ext_resource type="Texture2D" uid="uid://bqgootnm7xm8v" path="res://assets/characters/Dragon - Fully Animated/Attack 2/091.png" id="917_45e6j"]
+[ext_resource type="Texture2D" uid="uid://dr7gme4bn1sns" path="res://assets/characters/Dragon - Fully Animated/Attack 2/092.png" id="918_5t0xc"]
+[ext_resource type="Texture2D" uid="uid://dx7ygfrxhylmg" path="res://assets/characters/Dragon - Fully Animated/Attack 2/093.png" id="919_a2cba"]
+[ext_resource type="Texture2D" uid="uid://mcpih16i5hym" path="res://assets/characters/Dragon - Fully Animated/Attack 2/094.png" id="920_6wsmd"]
+[ext_resource type="Texture2D" uid="uid://dew2r6se6db51" path="res://assets/characters/Dragon - Fully Animated/Attack 2/095.png" id="921_w2haj"]
+[ext_resource type="Texture2D" uid="uid://cwlmxm0xa02le" path="res://assets/characters/Dragon - Fully Animated/Attack 2/096.png" id="922_tcvml"]
+[ext_resource type="Texture2D" uid="uid://d0f6bpbatcix1" path="res://assets/characters/Dragon - Fully Animated/Attack 2/097.png" id="923_jsjcw"]
+[ext_resource type="Texture2D" uid="uid://dwkg23ns3ainf" path="res://assets/characters/Dragon - Fully Animated/Attack 2/098.png" id="924_b7eaf"]
+[ext_resource type="Texture2D" uid="uid://vttkn1ehl0oj" path="res://assets/characters/Dragon - Fully Animated/Attack 2/099.png" id="925_e0bc2"]
+[ext_resource type="Texture2D" uid="uid://c6pmdr60wt5km" path="res://assets/characters/Dragon - Fully Animated/Attack 2/100.png" id="926_md6dj"]
+[ext_resource type="Texture2D" uid="uid://drpodvajbkbe5" path="res://assets/characters/Dragon - Fully Animated/Attack 2/101.png" id="927_ryxw0"]
+[ext_resource type="Texture2D" uid="uid://bh13kh6fqpdal" path="res://assets/characters/Dragon - Fully Animated/Attack 2/102.png" id="928_n4gtq"]
+[ext_resource type="Texture2D" uid="uid://bw5fi03tkh0gd" path="res://assets/characters/Dragon - Fully Animated/Attack 2/103.png" id="929_a6q4j"]
+[ext_resource type="Texture2D" uid="uid://b2p5so7w0juj1" path="res://assets/characters/Dragon - Fully Animated/Attack 2/104.png" id="930_x2fnb"]
+[ext_resource type="Texture2D" uid="uid://bw6hre0uggt6m" path="res://assets/characters/Dragon - Fully Animated/Attack 2/105.png" id="931_3063f"]
+[ext_resource type="Texture2D" uid="uid://drfnkvxvkahm6" path="res://assets/characters/Dragon - Fully Animated/Attack 2/106.png" id="932_18w46"]
+[ext_resource type="Texture2D" uid="uid://b0qixp4k5l1xh" path="res://assets/characters/Dragon - Fully Animated/Attack 2/107.png" id="933_x11ia"]
+[ext_resource type="Texture2D" uid="uid://lpj44iw6f6bo" path="res://assets/characters/Dragon - Fully Animated/Attack 2/108.png" id="934_tsk7v"]
+[ext_resource type="Texture2D" uid="uid://sifqc6fajf6r" path="res://assets/characters/Dragon - Fully Animated/Attack 2/109.png" id="935_o64lm"]
+[ext_resource type="Texture2D" uid="uid://de5t7mm2y5wpd" path="res://assets/characters/Dragon - Fully Animated/Attack 2/110.png" id="936_v6g34"]
+[ext_resource type="Texture2D" uid="uid://gt0sl524m6dp" path="res://assets/characters/Dragon - Fully Animated/Attack 2/111.png" id="937_68i45"]
+[ext_resource type="Texture2D" uid="uid://bjcjh8yr3dfgi" path="res://assets/characters/Dragon - Fully Animated/Attack 2/112.png" id="938_w7p18"]
+[ext_resource type="Texture2D" uid="uid://b76gcvpyiy67x" path="res://assets/characters/Dragon - Fully Animated/Attack 2/113.png" id="939_ap2v3"]
+[ext_resource type="Texture2D" uid="uid://0c6fvs1iuufb" path="res://assets/characters/Dragon - Fully Animated/Attack 2/114.png" id="940_lw0i8"]
+[ext_resource type="Texture2D" uid="uid://ynk8wij7ywvo" path="res://assets/characters/Dragon - Fully Animated/Attack 2/115.png" id="941_h4oqq"]
+[ext_resource type="Texture2D" uid="uid://dl5ssxeon3vdh" path="res://assets/characters/Dragon - Fully Animated/Attack 2/116.png" id="942_daoa1"]
+[ext_resource type="Texture2D" uid="uid://cbuwkmcyvkydt" path="res://assets/characters/Dragon - Fully Animated/Attack 2/117.png" id="943_4vx7q"]
+[ext_resource type="Texture2D" uid="uid://be5c88hdq440k" path="res://assets/characters/Dragon - Fully Animated/Attack 2/118.png" id="944_2n31n"]
+[ext_resource type="Texture2D" uid="uid://do2k4ml4v063h" path="res://assets/characters/Dragon - Fully Animated/Attack 2/119.png" id="945_elcxb"]
+[ext_resource type="Texture2D" uid="uid://ddef61vbhhppo" path="res://assets/characters/Dragon - Fully Animated/Attack 2/120.png" id="946_mlaha"]
+[ext_resource type="Texture2D" uid="uid://dlrcgmc8y4k20" path="res://assets/characters/Dragon - Fully Animated/Attack 2/121.png" id="947_0xl0o"]
+[ext_resource type="Texture2D" uid="uid://be6yme884iy4n" path="res://assets/characters/Dragon - Fully Animated/Attack 2/122.png" id="948_2thc2"]
+[ext_resource type="Texture2D" uid="uid://d05qpobvvhtes" path="res://assets/characters/Dragon - Fully Animated/Attack 2/123.png" id="949_7u2pp"]
+[ext_resource type="Texture2D" uid="uid://c3wq6p2hc8i5k" path="res://assets/characters/Dragon - Fully Animated/Attack 2/124.png" id="950_gq8ii"]
+[ext_resource type="Texture2D" uid="uid://dtftprntambae" path="res://assets/characters/Dragon - Fully Animated/Attack 2/125.png" id="951_dmmi2"]
+[ext_resource type="Texture2D" uid="uid://qy732bu1nh3q" path="res://assets/characters/Dragon - Fully Animated/Attack 2/126.png" id="952_sa5ds"]
+[ext_resource type="Texture2D" uid="uid://xdl2uahqkuib" path="res://assets/characters/Dragon - Fully Animated/Attack 2/127.png" id="953_lkrdi"]
+[ext_resource type="Texture2D" uid="uid://d0e40ubt5mkxv" path="res://assets/characters/Dragon - Fully Animated/Attack 2/128.png" id="954_r5jym"]
+[ext_resource type="Texture2D" uid="uid://b1ygou6rjkomn" path="res://assets/characters/Dragon - Fully Animated/Attack 2/129.png" id="955_qm77h"]
+[ext_resource type="Texture2D" uid="uid://buop88fhfetka" path="res://assets/characters/Dragon - Fully Animated/Attack 2/130.png" id="956_dtpfl"]
+[ext_resource type="Texture2D" uid="uid://b0kn2i784cwq6" path="res://assets/characters/Dragon - Fully Animated/Attack 2/131.png" id="957_sgeqc"]
+[ext_resource type="Texture2D" uid="uid://dwa7b1bd8hw66" path="res://assets/characters/Dragon - Fully Animated/Attack 2/132.png" id="958_7p12p"]
+[ext_resource type="Texture2D" uid="uid://ddup34em52lr8" path="res://assets/characters/Dragon - Fully Animated/Attack 2/133.png" id="959_ua4ax"]
+[ext_resource type="Texture2D" uid="uid://br231rldtg0n7" path="res://assets/characters/Dragon - Fully Animated/Attack 2/134.png" id="960_jfod6"]
+[ext_resource type="Texture2D" uid="uid://bov0sxjpll4mr" path="res://assets/characters/Dragon - Fully Animated/Attack 2/135.png" id="961_hd7d2"]
+[ext_resource type="Texture2D" uid="uid://brj2oldbueibr" path="res://assets/characters/Dragon - Fully Animated/Attack 2/136.png" id="962_nxcan"]
+[ext_resource type="Texture2D" uid="uid://bssega4vo6pl4" path="res://assets/characters/Dragon - Fully Animated/Attack 2/137.png" id="963_o5uuo"]
+[ext_resource type="Texture2D" uid="uid://boirg7c8uqhyt" path="res://assets/characters/Dragon - Fully Animated/Attack 2/138.png" id="964_4pl8q"]
+[ext_resource type="Texture2D" uid="uid://p3a0tj7m316x" path="res://assets/characters/Dragon - Fully Animated/Attack 2/139.png" id="965_omvqv"]
+[ext_resource type="Texture2D" uid="uid://b48lpm7gahht2" path="res://assets/characters/Dragon - Fully Animated/Attack 2/140.png" id="966_optuu"]
+[ext_resource type="Texture2D" uid="uid://c5d7shcu7vvpw" path="res://assets/characters/Dragon - Fully Animated/Attack 2/141.png" id="967_2gkh2"]
+[ext_resource type="Texture2D" uid="uid://coi7l8clikpqe" path="res://assets/characters/Dragon - Fully Animated/Attack 2/142.png" id="968_4psji"]
+[ext_resource type="Texture2D" uid="uid://b01vni3u0f5ue" path="res://assets/characters/Dragon - Fully Animated/Attack 2/143.png" id="969_nl1v7"]
+[ext_resource type="Texture2D" uid="uid://caef08ap7lki6" path="res://assets/characters/Dragon - Fully Animated/Attack 2/144.png" id="970_5lj6m"]
+[ext_resource type="Texture2D" uid="uid://dqpbmri7fba7k" path="res://assets/characters/Dragon - Fully Animated/Attack 2/145.png" id="971_5eobm"]
+[ext_resource type="Texture2D" uid="uid://c7o5676pkbh8f" path="res://assets/characters/Dragon - Fully Animated/Attack 2/146.png" id="972_rvans"]
+[ext_resource type="Texture2D" uid="uid://cybj8sx44bban" path="res://assets/characters/Dragon - Fully Animated/Attack 2/147.png" id="973_5cgoj"]
+[ext_resource type="Texture2D" uid="uid://cqdhei18e188k" path="res://assets/characters/Dragon - Fully Animated/Attack 2/148.png" id="974_mhoa6"]
+[ext_resource type="Texture2D" uid="uid://u86omdss3vki" path="res://assets/characters/Dragon - Fully Animated/Attack 2/149.png" id="975_fu74d"]
+[ext_resource type="Texture2D" uid="uid://bwdrk5k4kmjq5" path="res://assets/characters/Dragon - Fully Animated/Attack 2/150.png" id="976_nppha"]
+[ext_resource type="Texture2D" uid="uid://ij5iq6gbvcgi" path="res://assets/characters/Dragon - Fully Animated/Attack 2/151.png" id="977_jmwhi"]
+[ext_resource type="Texture2D" uid="uid://djhtruv3strn3" path="res://assets/characters/Dragon - Fully Animated/Attack 2/152.png" id="978_6vjf7"]
+[ext_resource type="Texture2D" uid="uid://d08l5t2vhjkqc" path="res://assets/characters/Dragon - Fully Animated/Attack 2/153.png" id="979_jvkql"]
+[ext_resource type="Texture2D" uid="uid://dt0u6a74a6m0w" path="res://assets/characters/Dragon - Fully Animated/Attack 2/154.png" id="980_a4ld1"]
+[ext_resource type="Texture2D" uid="uid://c5pdtirigkobu" path="res://assets/characters/Dragon - Fully Animated/Attack 2/155.png" id="981_t1rhi"]
+[ext_resource type="Texture2D" uid="uid://bnnq7ocvh0h7l" path="res://assets/characters/Dragon - Fully Animated/Attack 2/156.png" id="982_1acyt"]
+[ext_resource type="Texture2D" uid="uid://dcfo6itxdqt8o" path="res://assets/characters/Dragon - Fully Animated/Attack 2/157.png" id="983_m1rhg"]
+[ext_resource type="Texture2D" uid="uid://cg2lgfhrebik6" path="res://assets/characters/Dragon - Fully Animated/Attack 2/158.png" id="984_iimav"]
+[ext_resource type="Texture2D" uid="uid://ddmnjuliyowvs" path="res://assets/characters/Dragon - Fully Animated/Attack 2/159.png" id="985_24ud6"]
+[ext_resource type="Texture2D" uid="uid://rxrbc07uosc5" path="res://assets/characters/Dragon - Fully Animated/Attack 2/160.png" id="986_1ln0p"]
+[ext_resource type="Texture2D" uid="uid://bhww1yyv5hemv" path="res://assets/characters/Dragon - Fully Animated/Attack 2/161.png" id="987_j07iu"]
+[ext_resource type="Texture2D" uid="uid://drhwx43gpru5r" path="res://assets/characters/Dragon - Fully Animated/Attack 2/162.png" id="988_m26wh"]
+[ext_resource type="Texture2D" uid="uid://cgtmvreqncrsy" path="res://assets/characters/Dragon - Fully Animated/Attack 2/163.png" id="989_ncyci"]
+[ext_resource type="Texture2D" uid="uid://c2usy6n8q3qpd" path="res://assets/characters/Dragon - Fully Animated/Attack 2/164.png" id="990_nay3s"]
+[ext_resource type="Texture2D" uid="uid://btymepstk1st7" path="res://assets/characters/Dragon - Fully Animated/Attack 2/165.png" id="991_yoe5u"]
+[ext_resource type="Texture2D" uid="uid://dh02a7rqbh6qc" path="res://assets/characters/Dragon - Fully Animated/Attack 2/166.png" id="992_e1xq5"]
+[ext_resource type="Texture2D" uid="uid://vwtgwnwc14hj" path="res://assets/characters/Dragon - Fully Animated/Attack 2/167.png" id="993_dit0a"]
+[ext_resource type="Texture2D" uid="uid://ibo2irj5x7xf" path="res://assets/characters/Dragon - Fully Animated/Attack 2/168.png" id="994_tktd5"]
+[ext_resource type="Texture2D" uid="uid://bse8l2rpgviw3" path="res://assets/characters/Dragon - Fully Animated/Attack 2/169.png" id="995_df6l6"]
+[ext_resource type="Texture2D" uid="uid://cd7uh8gl0g8di" path="res://assets/characters/Dragon - Fully Animated/Attack 2/170.png" id="996_g15w7"]
+[ext_resource type="Texture2D" uid="uid://dun53pq20l16b" path="res://assets/characters/Dragon - Fully Animated/Attack 2/171.png" id="997_tptnw"]
+[ext_resource type="Texture2D" uid="uid://br2ihr41lsvhs" path="res://assets/characters/Dragon - Fully Animated/Attack 2/172.png" id="998_krdpv"]
+[ext_resource type="Texture2D" uid="uid://c1n884ggcna8c" path="res://assets/characters/Dragon - Fully Animated/Attack 2/173.png" id="999_jtdp8"]
+[ext_resource type="Texture2D" uid="uid://c6y622kqud31f" path="res://assets/characters/Dragon - Fully Animated/Attack 2/174.png" id="1000_q32gn"]
+[ext_resource type="Texture2D" uid="uid://dunadxcphn25i" path="res://assets/characters/Dragon - Fully Animated/Attack 2/175.png" id="1001_y71n6"]
+[ext_resource type="Texture2D" uid="uid://da7cpdffu0mi" path="res://assets/characters/Dragon - Fully Animated/Attack 2/176.png" id="1002_uaero"]
+[ext_resource type="Texture2D" uid="uid://c5ljgqr1o8f2e" path="res://assets/characters/Dragon - Fully Animated/Attack 2/177.png" id="1003_2qoro"]
+[ext_resource type="Texture2D" uid="uid://bg6q5bikcqhd0" path="res://assets/characters/Dragon - Fully Animated/Attack 2/178.png" id="1004_lcuja"]
+[ext_resource type="Texture2D" uid="uid://bx35egto3hkrn" path="res://assets/characters/Dragon - Fully Animated/Attack 2/179.png" id="1005_dj8jv"]
+[ext_resource type="Texture2D" uid="uid://c7f1otj05yn5i" path="res://assets/characters/Dragon - Fully Animated/Attack 2/180.png" id="1006_elqmb"]
+[ext_resource type="Texture2D" uid="uid://bet66xk56gql2" path="res://assets/characters/Dragon - Fully Animated/Attack 2/181.png" id="1007_jj7bu"]
+[ext_resource type="Texture2D" uid="uid://c4ufxd6tf1ed2" path="res://assets/characters/Dragon - Fully Animated/Attack 2/182.png" id="1008_pxnbi"]
+[ext_resource type="Texture2D" uid="uid://54vjk625ce50" path="res://assets/characters/Dragon - Fully Animated/Attack 2/183.png" id="1009_fdcvg"]
+[ext_resource type="Texture2D" uid="uid://cwot8qnv8a87x" path="res://assets/characters/Dragon - Fully Animated/Attack 2/184.png" id="1010_vqd46"]
+[ext_resource type="Texture2D" uid="uid://c0bbg6ufmawmm" path="res://assets/characters/Dragon - Fully Animated/Attack 2/185.png" id="1011_1ko8w"]
+[ext_resource type="Texture2D" uid="uid://dur1lrgd388gt" path="res://assets/characters/Dragon - Fully Animated/Attack 2/186.png" id="1012_xq63x"]
+[ext_resource type="Texture2D" uid="uid://b0im88gp4cifo" path="res://assets/characters/Dragon - Fully Animated/Attack 2/187.png" id="1013_o1y5b"]
+[ext_resource type="Texture2D" uid="uid://cxebppj157ee8" path="res://assets/characters/Dragon - Fully Animated/Attack 2/188.png" id="1014_gh0eb"]
+[ext_resource type="Texture2D" uid="uid://dtau7dq6a844c" path="res://assets/characters/Dragon - Fully Animated/Attack 2/189.png" id="1015_0be5p"]
+[ext_resource type="Texture2D" uid="uid://bj1j6ayaoiiok" path="res://assets/characters/Dragon - Fully Animated/Attack 2/190.png" id="1016_r5dtq"]
+[ext_resource type="Texture2D" uid="uid://o6chf418p75l" path="res://assets/characters/Dragon - Fully Animated/Attack 2/191.png" id="1017_68ulx"]
+[ext_resource type="Texture2D" uid="uid://d14mit14wrsk3" path="res://assets/characters/Dragon - Fully Animated/Attack 2/192.png" id="1018_x6eru"]
+[ext_resource type="Texture2D" uid="uid://dbwqavrv8tq72" path="res://assets/characters/Dragon - Fully Animated/Attack 2/193.png" id="1019_suxop"]
+[ext_resource type="Texture2D" uid="uid://cbkx1nwki3guq" path="res://assets/characters/Dragon - Fully Animated/Attack 2/194.png" id="1020_wwgnc"]
+[ext_resource type="Texture2D" uid="uid://die114gjuepog" path="res://assets/characters/Dragon - Fully Animated/Attack 2/195.png" id="1021_ncqxr"]
+[ext_resource type="Texture2D" uid="uid://c4c7mqmefvwyx" path="res://assets/characters/Dragon - Fully Animated/Attack 2/196.png" id="1022_56abe"]
+[ext_resource type="Texture2D" uid="uid://csh8l7n2mqbyk" path="res://assets/characters/Dragon - Fully Animated/Attack 2/197.png" id="1023_yutv0"]
+[ext_resource type="Texture2D" uid="uid://c0wqo7o05yi7f" path="res://assets/characters/Dragon - Fully Animated/Attack 2/198.png" id="1024_bwikm"]
+[ext_resource type="Texture2D" uid="uid://cxn11o13otlil" path="res://assets/characters/Dragon - Fully Animated/Attack 2/199.png" id="1025_j0xvr"]
+[ext_resource type="Texture2D" uid="uid://dtrdxij8qd0u5" path="res://assets/characters/Dragon - Fully Animated/Attack 2/200.png" id="1026_x1fnn"]
+[ext_resource type="Texture2D" uid="uid://dc64l40aauxos" path="res://assets/characters/Dragon - Fully Animated/Attack 2/201.png" id="1027_vyrks"]
+[ext_resource type="Texture2D" uid="uid://dpbwvwk102rbc" path="res://assets/characters/Dragon - Fully Animated/Attack 2/202.png" id="1028_v026j"]
+[ext_resource type="Texture2D" uid="uid://camnpjyo8odbe" path="res://assets/characters/Dragon - Fully Animated/Walking/001.png" id="1029_gnwyo"]
+[ext_resource type="Texture2D" uid="uid://dwxmmb8iffwqt" path="res://assets/characters/Dragon - Fully Animated/Walking/002.png" id="1030_cidsu"]
+[ext_resource type="Texture2D" uid="uid://cv2nu14cpehdg" path="res://assets/characters/Dragon - Fully Animated/Walking/003.png" id="1031_qy8yd"]
+[ext_resource type="Texture2D" uid="uid://ct58ypgp1waan" path="res://assets/characters/Dragon - Fully Animated/Walking/004.png" id="1032_opjy7"]
+[ext_resource type="Texture2D" uid="uid://b3f1nmbf5irep" path="res://assets/characters/Dragon - Fully Animated/Walking/005.png" id="1033_mfjsn"]
+[ext_resource type="Texture2D" uid="uid://c7pyk5d5k1otc" path="res://assets/characters/Dragon - Fully Animated/Walking/006.png" id="1034_4aesj"]
+[ext_resource type="Texture2D" uid="uid://dfe3puq4lif6e" path="res://assets/characters/Dragon - Fully Animated/Walking/007.png" id="1035_rp5dt"]
+[ext_resource type="Texture2D" uid="uid://cyq5vqmkrhqdd" path="res://assets/characters/Dragon - Fully Animated/Walking/008.png" id="1036_thh0a"]
+[ext_resource type="Texture2D" uid="uid://r5nnydnvof7f" path="res://assets/characters/Dragon - Fully Animated/Walking/009.png" id="1037_va8t6"]
+[ext_resource type="Texture2D" uid="uid://calgrbf5dslfv" path="res://assets/characters/Dragon - Fully Animated/Walking/010.png" id="1038_qdo3w"]
+[ext_resource type="Texture2D" uid="uid://82api54tjl5e" path="res://assets/characters/Dragon - Fully Animated/Walking/011.png" id="1039_1l3ws"]
+[ext_resource type="Texture2D" uid="uid://db1614mb5skxt" path="res://assets/characters/Dragon - Fully Animated/Walking/012.png" id="1040_xcepk"]
+[ext_resource type="Texture2D" uid="uid://bwt6yethojvc3" path="res://assets/characters/Dragon - Fully Animated/Walking/013.png" id="1041_614wc"]
+[ext_resource type="Texture2D" uid="uid://c7pf8cc78qaov" path="res://assets/characters/Dragon - Fully Animated/Walking/014.png" id="1042_xuqgb"]
+[ext_resource type="Texture2D" uid="uid://cs2elce3c5fwc" path="res://assets/characters/Dragon - Fully Animated/Walking/015.png" id="1043_uaewj"]
+[ext_resource type="Texture2D" uid="uid://dive0e6xqvkym" path="res://assets/characters/Dragon - Fully Animated/Walking/016.png" id="1044_tqwru"]
+[ext_resource type="Texture2D" uid="uid://baa445jdepruh" path="res://assets/characters/Dragon - Fully Animated/Walking/017.png" id="1045_vnqj4"]
+[ext_resource type="Texture2D" uid="uid://6ndhuube2hfg" path="res://assets/characters/Dragon - Fully Animated/Walking/018.png" id="1046_t204a"]
+[ext_resource type="Texture2D" uid="uid://bsyaipp27xmug" path="res://assets/characters/Dragon - Fully Animated/Walking/019.png" id="1047_3tqlx"]
+[ext_resource type="Texture2D" uid="uid://dn6qrg0xygrxq" path="res://assets/characters/Dragon - Fully Animated/Walking/020.png" id="1048_dvg7f"]
+[ext_resource type="Texture2D" uid="uid://dfvujvadesrk4" path="res://assets/characters/Dragon - Fully Animated/Walking/021.png" id="1049_58i1u"]
+[ext_resource type="Texture2D" uid="uid://cg3ksi3ox3np" path="res://assets/characters/Dragon - Fully Animated/Walking/022.png" id="1050_lfvii"]
+[ext_resource type="Texture2D" uid="uid://brwmlllsce3h7" path="res://assets/characters/Dragon - Fully Animated/Walking/023.png" id="1051_dpw4m"]
+[ext_resource type="Texture2D" uid="uid://dp3hk7u3vq53s" path="res://assets/characters/Dragon - Fully Animated/Walking/024.png" id="1052_h5mc2"]
+[ext_resource type="Texture2D" uid="uid://cstaxblfb1f7s" path="res://assets/characters/Dragon - Fully Animated/Walking/025.png" id="1053_yg8dx"]
+[ext_resource type="Texture2D" uid="uid://c4dhddlk8ecr2" path="res://assets/characters/Dragon - Fully Animated/Walking/026.png" id="1054_xm7xp"]
+[ext_resource type="Texture2D" uid="uid://tsls4avaq8sa" path="res://assets/characters/Dragon - Fully Animated/Walking/027.png" id="1055_axpso"]
+[ext_resource type="Texture2D" uid="uid://qaoxy8wi5473" path="res://assets/characters/Dragon - Fully Animated/Walking/028.png" id="1056_mlc3m"]
+[ext_resource type="Texture2D" uid="uid://de6wk5hqgryrt" path="res://assets/characters/Dragon - Fully Animated/Walking/029.png" id="1057_2ne6r"]
+[ext_resource type="Texture2D" uid="uid://c15sqtfkxruhq" path="res://assets/characters/Dragon - Fully Animated/Walking/030.png" id="1058_w481l"]
+[ext_resource type="Texture2D" uid="uid://cotkspjsw26xi" path="res://assets/characters/Dragon - Fully Animated/Walking/031.png" id="1059_fkkkp"]
+[ext_resource type="Texture2D" uid="uid://cxpj1gigc5q77" path="res://assets/characters/Dragon - Fully Animated/Walking/032.png" id="1060_2kihm"]
+[ext_resource type="Texture2D" uid="uid://bctrjqwwrlyx7" path="res://assets/characters/Dragon - Fully Animated/Walking/033.png" id="1061_vg1li"]
+[ext_resource type="Texture2D" uid="uid://c8gm17bq4cilc" path="res://assets/characters/Dragon - Fully Animated/Walking/034.png" id="1062_6assb"]
+[ext_resource type="Texture2D" uid="uid://w2gpgvt8202y" path="res://assets/characters/Dragon - Fully Animated/Walking/035.png" id="1063_o3jdy"]
+[ext_resource type="Texture2D" uid="uid://dk5i2ntj05f5" path="res://assets/characters/Dragon - Fully Animated/Walking/036.png" id="1064_vdxcp"]
+[ext_resource type="Texture2D" uid="uid://dhlp1xawbxrli" path="res://assets/characters/Dragon - Fully Animated/Walking/037.png" id="1065_maa08"]
+[ext_resource type="Texture2D" uid="uid://cjeip61awvixd" path="res://assets/characters/Dragon - Fully Animated/Walking/038.png" id="1066_pext2"]
+[ext_resource type="Texture2D" uid="uid://yy8fwe10r1ja" path="res://assets/characters/Dragon - Fully Animated/Walking/039.png" id="1067_pd0fx"]
+[ext_resource type="Texture2D" uid="uid://batbbv7b1j1w4" path="res://assets/characters/Dragon - Fully Animated/Walking/040.png" id="1068_6y13n"]
+[ext_resource type="Texture2D" uid="uid://bubq46sxkohu3" path="res://assets/characters/Dragon - Fully Animated/Walking/041.png" id="1069_4rxmp"]
+[ext_resource type="Texture2D" uid="uid://uv215r235gu3" path="res://assets/characters/Dragon - Fully Animated/Walking/042.png" id="1070_cagrb"]
+[ext_resource type="Texture2D" uid="uid://bfuu1qg5gj81s" path="res://assets/characters/Dragon - Fully Animated/Walking/043.png" id="1071_8dd16"]
+[ext_resource type="Texture2D" uid="uid://056fxwl02vod" path="res://assets/characters/Dragon - Fully Animated/Walking/044.png" id="1072_6oni8"]
+[ext_resource type="Texture2D" uid="uid://dnmcln12khiry" path="res://assets/characters/Dragon - Fully Animated/Walking/045.png" id="1073_tnbxr"]
+[ext_resource type="Texture2D" uid="uid://vmq5ri8nkj6l" path="res://assets/characters/Dragon - Fully Animated/Walking/046.png" id="1074_hml6x"]
+[ext_resource type="Texture2D" uid="uid://b7nwp44jui5f2" path="res://assets/characters/Dragon - Fully Animated/Walking/047.png" id="1075_4kmi8"]
+[ext_resource type="Texture2D" uid="uid://ccppyedn5njw6" path="res://assets/characters/Dragon - Fully Animated/Walking/048.png" id="1076_8rx7u"]
+[ext_resource type="Texture2D" uid="uid://bl3wx6638opaw" path="res://assets/characters/Dragon - Fully Animated/Walking/049.png" id="1077_xv60a"]
+[ext_resource type="Texture2D" uid="uid://bbk83vo2k3ivb" path="res://assets/characters/Dragon - Fully Animated/Walking/050.png" id="1078_4d8ye"]
+[ext_resource type="Texture2D" uid="uid://b0bn1ftrpbqob" path="res://assets/characters/Dragon - Fully Animated/Walking/051.png" id="1079_ajxrb"]
+[ext_resource type="Texture2D" uid="uid://dhw8hatkhqj07" path="res://assets/characters/Dragon - Fully Animated/Walking/052.png" id="1080_74874"]
+[ext_resource type="Texture2D" uid="uid://bwcpk5d0jnn28" path="res://assets/characters/Dragon - Fully Animated/Walking/053.png" id="1081_j5yp2"]
+[ext_resource type="Texture2D" uid="uid://6pdeii4suwcw" path="res://assets/characters/Dragon - Fully Animated/Walking/054.png" id="1082_org21"]
+[ext_resource type="Texture2D" uid="uid://dog1fne1rla8m" path="res://assets/characters/Dragon - Fully Animated/Walking/055.png" id="1083_eyten"]
+[ext_resource type="Texture2D" uid="uid://dbu5ygaoele45" path="res://assets/characters/Dragon - Fully Animated/Walking/056.png" id="1084_fgkao"]
+[ext_resource type="Texture2D" uid="uid://o6hdx5wu6sp4" path="res://assets/characters/Dragon - Fully Animated/Walking/057.png" id="1085_go7fa"]
+[ext_resource type="Texture2D" uid="uid://d37k6fkrhu0cn" path="res://assets/characters/Dragon - Fully Animated/Walking/058.png" id="1086_jfimx"]
+[ext_resource type="Texture2D" uid="uid://dcycqwxvsnu24" path="res://assets/characters/Dragon - Fully Animated/Walking/059.png" id="1087_62cmf"]
+[ext_resource type="Texture2D" uid="uid://bx5c376h38ic" path="res://assets/characters/Dragon - Fully Animated/Walking/060.png" id="1088_mc2j3"]
+[ext_resource type="Texture2D" uid="uid://snjpnlwqo4as" path="res://assets/characters/Dragon - Fully Animated/Walking/061.png" id="1089_1b20t"]
+[ext_resource type="Texture2D" uid="uid://c5wjj15rn8l0c" path="res://assets/characters/Dragon - Fully Animated/Walking/062.png" id="1090_6nfi5"]
+[ext_resource type="Texture2D" uid="uid://cfxx1lmy8e62o" path="res://assets/characters/Dragon - Fully Animated/Walking/063.png" id="1091_l07jl"]
+[ext_resource type="Texture2D" uid="uid://bgo1pi7kekh4n" path="res://assets/characters/Dragon - Fully Animated/Walking/064.png" id="1092_dt466"]
+[ext_resource type="Texture2D" uid="uid://cfayd1qi5kvji" path="res://assets/characters/Dragon - Fully Animated/Walking/065.png" id="1093_ydmaa"]
+[ext_resource type="Texture2D" uid="uid://d1g1km7pumr01" path="res://assets/characters/Dragon - Fully Animated/Walking/066.png" id="1094_kqdld"]
+[ext_resource type="Texture2D" uid="uid://dy6fq5ukq21gl" path="res://assets/characters/Dragon - Fully Animated/Walking/067.png" id="1095_ljmx2"]
+[ext_resource type="Texture2D" uid="uid://b11sc7libkfq0" path="res://assets/characters/Dragon - Fully Animated/Walking/068.png" id="1096_13ryi"]
+[ext_resource type="Texture2D" uid="uid://djnbeby3k3l10" path="res://assets/characters/Dragon - Fully Animated/Walking/069.png" id="1097_51adt"]
+[ext_resource type="Texture2D" uid="uid://dnugsnjc78wjw" path="res://assets/characters/Dragon - Fully Animated/Walking/070.png" id="1098_jod4t"]
+[ext_resource type="Texture2D" uid="uid://1xbiemfef773" path="res://assets/characters/Dragon - Fully Animated/Walking/071.png" id="1099_vqxbq"]
+[ext_resource type="Texture2D" uid="uid://def7vy3xe1g14" path="res://assets/characters/Dragon - Fully Animated/Walking/072.png" id="1100_d8igu"]
+[ext_resource type="Texture2D" uid="uid://buvvhuoyh0826" path="res://assets/characters/Dragon - Fully Animated/Walking/073.png" id="1101_m4weq"]
+[ext_resource type="Texture2D" uid="uid://bn73hke04gqq8" path="res://assets/characters/Dragon - Fully Animated/Walking/074.png" id="1102_bmahy"]
+[ext_resource type="Texture2D" uid="uid://digip3o0kae6v" path="res://assets/characters/Dragon - Fully Animated/Walking/075.png" id="1103_cm3bk"]
+[ext_resource type="Texture2D" uid="uid://cfqtstrk61ttr" path="res://assets/characters/Dragon - Fully Animated/Walking/076.png" id="1104_g8sei"]
+[ext_resource type="Texture2D" uid="uid://dwm4qteuswml" path="res://assets/characters/Dragon - Fully Animated/Walking/077.png" id="1105_ncg0p"]
+[ext_resource type="Texture2D" uid="uid://ddoo3d8yl16jv" path="res://assets/characters/Dragon - Fully Animated/Walking/078.png" id="1106_86uxg"]
+[ext_resource type="Texture2D" uid="uid://dxylhs6wfyvut" path="res://assets/characters/Dragon - Fully Animated/Walking/079.png" id="1107_d4ep5"]
+[ext_resource type="Texture2D" uid="uid://sf0i8s6m4p34" path="res://assets/characters/Dragon - Fully Animated/Walking/080.png" id="1108_r7wcs"]
+[ext_resource type="Texture2D" uid="uid://bvvhxrgh5mqp4" path="res://assets/characters/Dragon - Fully Animated/Walking/081.png" id="1109_xa818"]
+[ext_resource type="Texture2D" uid="uid://cgx0jucubh1us" path="res://assets/characters/Dragon - Fully Animated/Walking/082.png" id="1110_3s448"]
+[ext_resource type="Texture2D" uid="uid://dq4t0x427kati" path="res://assets/characters/Dragon - Fully Animated/Walking/083.png" id="1111_y6gpf"]
+[ext_resource type="Texture2D" uid="uid://cwvlvpgd0ded3" path="res://assets/characters/Dragon - Fully Animated/Walking/084.png" id="1112_0mmao"]
+[ext_resource type="Texture2D" uid="uid://dto4b8av2j4nl" path="res://assets/characters/Dragon - Fully Animated/Walking/085.png" id="1113_pkros"]
+[ext_resource type="Texture2D" uid="uid://tms1typ0qtxf" path="res://assets/characters/Dragon - Fully Animated/Walking/086.png" id="1114_q57lk"]
+[ext_resource type="Texture2D" uid="uid://b13jdi8dulquj" path="res://assets/characters/Dragon - Fully Animated/Walking/087.png" id="1115_daeq7"]
+[ext_resource type="Texture2D" uid="uid://dvlbk4vv3grnf" path="res://assets/characters/Dragon - Fully Animated/Walking/088.png" id="1116_8606b"]
+[ext_resource type="Texture2D" uid="uid://cwnb444bo1uim" path="res://assets/characters/Dragon - Fully Animated/Walking/089.png" id="1117_jbpyn"]
+[ext_resource type="Texture2D" uid="uid://bkayic6gmbfw1" path="res://assets/characters/Dragon - Fully Animated/Walking/090.png" id="1118_tpm1s"]
+[ext_resource type="Texture2D" uid="uid://qi1m87i4wgon" path="res://assets/characters/Dragon - Fully Animated/Walking/091.png" id="1119_5fyqj"]
+[ext_resource type="Texture2D" uid="uid://yke4pwgq4plp" path="res://assets/characters/Dragon - Fully Animated/Walking/092.png" id="1120_5g3rc"]
+[ext_resource type="Texture2D" uid="uid://bi6c211jx0fvq" path="res://assets/characters/Dragon - Fully Animated/Walking/093.png" id="1121_81mas"]
+[ext_resource type="Texture2D" uid="uid://bqg3yvcopr3h1" path="res://assets/characters/Dragon - Fully Animated/Walking/094.png" id="1122_eo21o"]
+[ext_resource type="Texture2D" uid="uid://ca2oxnmb4pbx6" path="res://assets/characters/Dragon - Fully Animated/Walking/095.png" id="1123_u6kdr"]
+[ext_resource type="Texture2D" uid="uid://bmd0ugpfpt7qp" path="res://assets/characters/Dragon - Fully Animated/Walking/096.png" id="1124_cm8ee"]
+[ext_resource type="Texture2D" uid="uid://clveofo7mxnl7" path="res://assets/characters/Dragon - Fully Animated/Walking/097.png" id="1125_egokm"]
+[ext_resource type="Texture2D" uid="uid://dt2jqwoaplomw" path="res://assets/characters/Dragon - Fully Animated/Walking/098.png" id="1126_tt4cm"]
+[ext_resource type="Texture2D" uid="uid://c0l6nhhhaoaqu" path="res://assets/characters/Dragon - Fully Animated/Walking/099.png" id="1127_ifw21"]
+[ext_resource type="Texture2D" uid="uid://dp177j44e85dp" path="res://assets/characters/Dragon - Fully Animated/Walking/100.png" id="1128_oea15"]
+[ext_resource type="Texture2D" uid="uid://cmvwsdkfx2smb" path="res://assets/characters/Dragon - Fully Animated/Walking/101.png" id="1129_y86ls"]
+[ext_resource type="Texture2D" uid="uid://c2154kl2v0gig" path="res://assets/characters/Dragon - Fully Animated/Walking/102.png" id="1130_26r07"]
+[ext_resource type="Texture2D" uid="uid://jvinygddq3q" path="res://assets/characters/Dragon - Fully Animated/Walking/103.png" id="1131_24y0v"]
+[ext_resource type="Texture2D" uid="uid://dymcjnh7twysc" path="res://assets/characters/Dragon - Fully Animated/Walking/104.png" id="1132_ovco8"]
+[ext_resource type="Texture2D" uid="uid://84jjhmil5pss" path="res://assets/characters/Dragon - Fully Animated/Walking/105.png" id="1133_mst85"]
+[ext_resource type="Texture2D" uid="uid://kjun1duan4hp" path="res://assets/characters/Dragon - Fully Animated/Walking/106.png" id="1134_e3prk"]
+[ext_resource type="Texture2D" uid="uid://cobya3noc2fj4" path="res://assets/characters/Dragon - Fully Animated/Walking/107.png" id="1135_chpib"]
+[ext_resource type="Texture2D" uid="uid://wk6r08ul8af3" path="res://assets/characters/Dragon - Fully Animated/Walking/108.png" id="1136_qfp0o"]
+[ext_resource type="Texture2D" uid="uid://b2vavly3ilaso" path="res://assets/characters/Dragon - Fully Animated/Walking/109.png" id="1137_20ven"]
+[ext_resource type="Texture2D" uid="uid://dfqui4uybc74o" path="res://assets/characters/Dragon - Fully Animated/Walking/110.png" id="1138_qs8ot"]
+[ext_resource type="Texture2D" uid="uid://ccemmli6crfee" path="res://assets/characters/Dragon - Fully Animated/Walking/111.png" id="1139_5r74l"]
+[ext_resource type="Texture2D" uid="uid://dsqc2ckjwmay5" path="res://assets/characters/Dragon - Fully Animated/Walking/112.png" id="1140_73140"]
+[ext_resource type="Texture2D" uid="uid://bqbhk8huo3qj2" path="res://assets/characters/Dragon - Fully Animated/Walking/113.png" id="1141_wwvwu"]
+[ext_resource type="Texture2D" uid="uid://ddur40v1achwp" path="res://assets/characters/Dragon - Fully Animated/Walking/114.png" id="1142_ngh8h"]
+[ext_resource type="Texture2D" uid="uid://dibyo7xccdg3w" path="res://assets/characters/Dragon - Fully Animated/Walking/115.png" id="1143_axxxi"]
+[ext_resource type="Texture2D" uid="uid://dyixlqxlje00r" path="res://assets/characters/Dragon - Fully Animated/Walking/116.png" id="1144_xmuoa"]
+[ext_resource type="Texture2D" uid="uid://71fvp3e31dj4" path="res://assets/characters/Dragon - Fully Animated/Walking/117.png" id="1145_vq7cy"]
+[ext_resource type="Texture2D" uid="uid://dg2wnwg4dcj0j" path="res://assets/characters/Dragon - Fully Animated/Walking/118.png" id="1146_kve1c"]
+[ext_resource type="Texture2D" uid="uid://bmoh7ogffgc1c" path="res://assets/characters/Dragon - Fully Animated/Walking/119.png" id="1147_bcmy4"]
+[ext_resource type="Texture2D" uid="uid://br4ffdgddjuhi" path="res://assets/characters/Dragon - Fully Animated/Walking/120.png" id="1148_uxwd6"]
+[ext_resource type="Texture2D" uid="uid://bms32unqphmug" path="res://assets/characters/Dragon - Fully Animated/Walking/121.png" id="1149_egc4f"]
+[ext_resource type="Texture2D" uid="uid://cjjgesw4f70o1" path="res://assets/characters/Dragon - Fully Animated/Walking/122.png" id="1150_aqkuq"]
+[ext_resource type="Texture2D" uid="uid://bw73vwjmvee4" path="res://assets/characters/Dragon - Fully Animated/Walking/123.png" id="1151_0df5g"]
+[ext_resource type="Texture2D" uid="uid://dwlduhakoby3v" path="res://assets/characters/Dragon - Fully Animated/Walking/124.png" id="1152_dv5ys"]
+[ext_resource type="Texture2D" uid="uid://dbhhmglxnd2r6" path="res://assets/characters/Dragon - Fully Animated/Walking/125.png" id="1153_q0b2a"]
+[ext_resource type="Texture2D" uid="uid://b4tp0ge01xe0d" path="res://assets/characters/Dragon - Fully Animated/Walking/126.png" id="1154_jmxic"]
+[ext_resource type="Texture2D" uid="uid://idfy1flj3rnv" path="res://assets/characters/Dragon - Fully Animated/Walking/127.png" id="1155_3ynw1"]
+[ext_resource type="Texture2D" uid="uid://blul0c8t0u3te" path="res://assets/characters/Dragon - Fully Animated/Walking/128.png" id="1156_h2x2k"]
+[ext_resource type="Texture2D" uid="uid://c4q07giw3wi5x" path="res://assets/characters/Dragon - Fully Animated/Walking/129.png" id="1157_fpabc"]
+[ext_resource type="Texture2D" uid="uid://lxd5bfpjvh2u" path="res://assets/characters/Dragon - Fully Animated/Walking/130.png" id="1158_0nm1h"]
+[ext_resource type="Texture2D" uid="uid://dymhi50f517wv" path="res://assets/characters/Dragon - Fully Animated/Walking/131.png" id="1159_udr8q"]
+[ext_resource type="Texture2D" uid="uid://dikwaj3v772uu" path="res://assets/characters/Dragon - Fully Animated/Walking/132.png" id="1160_gsf5c"]
+[ext_resource type="Texture2D" uid="uid://r0saai1765cw" path="res://assets/characters/Dragon - Fully Animated/Walking/133.png" id="1161_jphoh"]
+[ext_resource type="Texture2D" uid="uid://dnw4fwih7bq0b" path="res://assets/characters/Dragon - Fully Animated/Walking/134.png" id="1162_wwrxv"]
+[ext_resource type="Texture2D" uid="uid://cvgepgmfo6de3" path="res://assets/characters/Dragon - Fully Animated/Walking/135.png" id="1163_2dvi4"]
+[ext_resource type="Texture2D" uid="uid://qb03xu754b72" path="res://assets/characters/Dragon - Fully Animated/Walking/136.png" id="1164_b58ln"]
+[ext_resource type="Texture2D" uid="uid://bk30w26b4671f" path="res://assets/characters/Dragon - Fully Animated/Walking/137.png" id="1165_k8ujk"]
+[ext_resource type="Texture2D" uid="uid://bc32e8w8e0hr5" path="res://assets/characters/Dragon - Fully Animated/Walking/138.png" id="1166_w1xw4"]
+[ext_resource type="Texture2D" uid="uid://cqspdb4kntyfe" path="res://assets/characters/Dragon - Fully Animated/Walking/139.png" id="1167_ejesu"]
+[ext_resource type="Texture2D" uid="uid://dx2xd0skrjhvn" path="res://assets/characters/Dragon - Fully Animated/Walking/140.png" id="1168_3bam6"]
+[ext_resource type="Texture2D" uid="uid://b36mhdurv683l" path="res://assets/characters/Dragon - Fully Animated/Walking/141.png" id="1169_4v2yh"]
+[ext_resource type="Texture2D" uid="uid://hlyopt6coyb2" path="res://assets/characters/Dragon - Fully Animated/Walking/142.png" id="1170_gt5ls"]
+[ext_resource type="Texture2D" uid="uid://b8ql43cnfai3m" path="res://assets/characters/Dragon - Fully Animated/Walking/143.png" id="1171_tr6m4"]
+[ext_resource type="Texture2D" uid="uid://calueq6aou7on" path="res://assets/characters/Dragon - Fully Animated/Walking/144.png" id="1172_owwfn"]
+[ext_resource type="Texture2D" uid="uid://uxfb0xdru1je" path="res://assets/characters/Dragon - Fully Animated/Walking/145.png" id="1173_udd6y"]
+[ext_resource type="Texture2D" uid="uid://mtl1wilnwak" path="res://assets/characters/Dragon - Fully Animated/Walking/146.png" id="1174_l8wov"]
+[ext_resource type="Texture2D" uid="uid://d3h3ckqao0oys" path="res://assets/characters/Dragon - Fully Animated/Walking/147.png" id="1175_otrwv"]
+[ext_resource type="Texture2D" uid="uid://71n526umiewm" path="res://assets/characters/Dragon - Fully Animated/Walking/148.png" id="1176_66kp1"]
+[ext_resource type="Texture2D" uid="uid://bd803qpvrh2n5" path="res://assets/characters/Dragon - Fully Animated/Walking/149.png" id="1177_j0emv"]
+[ext_resource type="Texture2D" uid="uid://611u5fmxi1xw" path="res://assets/characters/Dragon - Fully Animated/Walking/150.png" id="1178_8ox8r"]
+[ext_resource type="Texture2D" uid="uid://oyagtfomf6p6" path="res://assets/characters/Dragon - Fully Animated/Walking/151.png" id="1179_gso7f"]
+[ext_resource type="Texture2D" uid="uid://bwwe2wytop7or" path="res://assets/characters/Dragon - Fully Animated/Walking/152.png" id="1180_8f5ti"]
+[ext_resource type="Texture2D" uid="uid://domnkgkftddyr" path="res://assets/characters/Dragon - Fully Animated/Walking/153.png" id="1181_bhb8y"]
+[ext_resource type="Texture2D" uid="uid://cvqudpwlbrcvs" path="res://assets/characters/Dragon - Fully Animated/Walking/154.png" id="1182_lnnn7"]
+[ext_resource type="Texture2D" uid="uid://nwa0d668y7lv" path="res://assets/characters/Dragon - Fully Animated/Walking/155.png" id="1183_50qeb"]
+[ext_resource type="Texture2D" uid="uid://da6e387d3f6ir" path="res://assets/characters/Dragon - Fully Animated/Walking/156.png" id="1184_t8vhm"]
+[ext_resource type="Texture2D" uid="uid://bnl3g0dqfenrh" path="res://assets/characters/Dragon - Fully Animated/Walking/157.png" id="1185_5r8y1"]
+[ext_resource type="Texture2D" uid="uid://dcw3ts1r2yfuh" path="res://assets/characters/Dragon - Fully Animated/Walking/158.png" id="1186_3yc7m"]
+[ext_resource type="Texture2D" uid="uid://c1u3eisc12868" path="res://assets/characters/Dragon - Fully Animated/Walking/159.png" id="1187_53r8x"]
+[ext_resource type="Texture2D" uid="uid://cred6485n5olj" path="res://assets/characters/Dragon - Fully Animated/Walking/160.png" id="1188_0w1e1"]
+[ext_resource type="Texture2D" uid="uid://whe4g8a6bgwt" path="res://assets/characters/Dragon - Fully Animated/Walking/161.png" id="1189_rcemf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hehwa"]
+size = Vector2(506.667, 176.667)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_w13tb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("827_rg5wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("828_tn04a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("829_0ffwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("830_vrhki")
+}, {
+"duration": 1.0,
+"texture": ExtResource("831_2l08f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("832_hmc46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("833_l3kpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("834_vi7wn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("835_me527")
+}, {
+"duration": 1.0,
+"texture": ExtResource("836_w8n0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("837_7rdt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("838_ywko4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("839_r8y3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("840_s3mvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("841_wmmal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("842_2yrlv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("843_fj5jm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("844_cp0qc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("845_tahee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("846_3ph1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("847_ib6em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("848_jp02h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("849_fqt4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("850_rc8o3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("851_v2r1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("852_2q6yd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("853_5owef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("854_nujld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("855_oyim4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("856_ks5pw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("857_lgkmh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("858_tr3wt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("859_edscx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("860_ytatu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("861_1iciy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("862_ef0fy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("863_8ko1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("864_rae7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("865_pb1qe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("866_mskpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("867_qyjo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("868_rehmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("869_bqvsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("870_uwm48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("871_mne5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("872_1sgdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("873_r5usa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("874_0swst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("875_8xdji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("876_bfo5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("877_yg26k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("878_mtwk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("879_6njhb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("880_68v48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("881_umgs8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("882_jv3na")
+}, {
+"duration": 1.0,
+"texture": ExtResource("883_18hv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("884_wljma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("885_wjfos")
+}, {
+"duration": 1.0,
+"texture": ExtResource("886_vrm4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("887_8y61c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("888_na65s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("889_fsb04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("890_7dyrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("891_qw7tk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("892_71tul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("893_qr0m2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("894_tp6hx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("895_ato2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("896_yvsvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("897_k57t3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("898_yjw7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("899_43sah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("900_ghblx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("901_65p5y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("902_no8w0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("903_gxk3o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("904_tcn4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("905_fdcl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("906_2vwyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("907_j20ex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("908_bw0oj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("909_nlucv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("910_52b3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("911_6hc8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("912_g74ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("913_qjpr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("914_k8652")
+}, {
+"duration": 1.0,
+"texture": ExtResource("915_1kvky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("916_pp2yv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("917_45e6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("918_5t0xc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("919_a2cba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("920_6wsmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("921_w2haj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("922_tcvml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("923_jsjcw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("924_b7eaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("925_e0bc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("926_md6dj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("927_ryxw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("928_n4gtq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("929_a6q4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("930_x2fnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("931_3063f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("932_18w46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("933_x11ia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("934_tsk7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("935_o64lm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("936_v6g34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("937_68i45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("938_w7p18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("939_ap2v3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("940_lw0i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("941_h4oqq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("942_daoa1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("943_4vx7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("944_2n31n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("945_elcxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("946_mlaha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("947_0xl0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("948_2thc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("949_7u2pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("950_gq8ii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("951_dmmi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("952_sa5ds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("953_lkrdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("954_r5jym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("955_qm77h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("956_dtpfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("957_sgeqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("958_7p12p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("959_ua4ax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("960_jfod6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("961_hd7d2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("962_nxcan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("963_o5uuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("964_4pl8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("965_omvqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("966_optuu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("967_2gkh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("968_4psji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("969_nl1v7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("970_5lj6m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("971_5eobm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("972_rvans")
+}, {
+"duration": 1.0,
+"texture": ExtResource("973_5cgoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("974_mhoa6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("975_fu74d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("976_nppha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("977_jmwhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("978_6vjf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("979_jvkql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("980_a4ld1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("981_t1rhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("982_1acyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("983_m1rhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("984_iimav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("985_24ud6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("986_1ln0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("987_j07iu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("988_m26wh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("989_ncyci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("990_nay3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("991_yoe5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("992_e1xq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("993_dit0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("994_tktd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("995_df6l6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("996_g15w7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("997_tptnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("998_krdpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("999_jtdp8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1000_q32gn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1001_y71n6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1002_uaero")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1003_2qoro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1004_lcuja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1005_dj8jv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1006_elqmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1007_jj7bu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1008_pxnbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1009_fdcvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1010_vqd46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1011_1ko8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1012_xq63x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1013_o1y5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1014_gh0eb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1015_0be5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1016_r5dtq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1017_68ulx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1018_x6eru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1019_suxop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1020_wwgnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1021_ncqxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1022_56abe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1023_yutv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1024_bwikm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1025_j0xvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1026_x1fnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1027_vyrks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1028_v026j")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("163_ibhjg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_txrtd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_iaoow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_0ifms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_nwuk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_6eblw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_nb1tm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_rklk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_ngxyw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_3rg7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_wa7a4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_160um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_n035r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_rvuj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_fdxuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_vcn24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_0w8x8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_gj7w3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_fheux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_j4fk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_0kxgo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_o26jn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_15uqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_xf5mm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_sn8t2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_wwxfk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_s20gr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_7adtl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_e2owj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_8w6ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_uv5yp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_hnq25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_pvgrk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_jprf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_53w1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_8w8h5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_guw55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_q3ryw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_p40jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_jcdno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_pi2ef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_tmpa5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_gjo7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_ad0ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_r2otl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_ubsgs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_r3gkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_pk1cp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_rf6q5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_lwmg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_4o4hb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_vpmty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_45nkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_1knas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_mwswp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_7m284")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_aloxk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_rma1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_263t8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_ccl6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_be0m6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_31jjk")
+}],
+"loop": false,
+"name": &"being_attacked",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("225_7uedp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_y0lwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_t0ewa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_mj3i0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_3i361")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_1gcnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_5psv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_ko2oj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_5ku8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_ogfms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_kn4n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_dkn2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_dle3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_4dfw8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_h5lrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_xmk6i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_55nam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_m3xts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_mldwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_jjtcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_4v04f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_e1jg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_eda5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_18neq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_7pl2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_duo4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_6auxe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_cv4ka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_siu3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_hv4xq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_5m06r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_wy4xj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_05nd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_vivp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_be0da")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_7tdtv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_ljs1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_h6p7b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_fna3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_0323j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_a22lf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_otaie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_blxna")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_i8p67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_apdff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_4ouhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_74fg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_weawb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_xl7fr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_bdmya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_6mq6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_2oa6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_t31sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_ocdtd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_3ni33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_mtbfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_nxkes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_6wvy6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_oujbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_egpff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_he1bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_3ckvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_5mytq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_xuxcu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_ap7jy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_oo50v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_dea1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_dixl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_xfr2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_n4uvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_tktsb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_u5h8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_xmjbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_omcnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_81ksu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_hrmyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_hf7dh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_bbbn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_6qunl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_rvwn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_aip71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_mj6bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_seqoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_cvi0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_3jakf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_wr1u0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_v74mn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_6vk1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_tpquy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_b7b3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_iheeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_555pn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_12cg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_tin6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_ujua2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_3vnrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_4a4vk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_5xsj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_cemq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_xstv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_vk7us")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_6vpy3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_j1b2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_hju1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_arnck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_gtb27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_grbso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_tcfyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_qyi07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_0sae6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_aoees")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_33scv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_ovbhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_l0clw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_3u6ts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_tewrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_3urdm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_npfjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_tig0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_u1j50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_jns2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_c8knp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_i77u7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_3dgcu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_7q0i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_2jd5v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_jq0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_dwfr2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_5t3pb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_05ls4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_pnyl6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_j0whu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_ee83i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_jffd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_qavra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_sxb2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_0xihy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_yw8dt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_msh4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_4x4uo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_c7tpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_p4ian")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_k1cs6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_wqj2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_sr3yl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_ui1yg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_umka3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_g04ob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_byyxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_vkjx5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375_7nsva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376_ih6ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377_uo3qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378_bq6n0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379_3kl67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380_cmap6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381_bcofq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382_ng2dt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383_glsc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384_47lul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385_1u51s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386_80x4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387_ybk27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388_4e1hk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389_xkehd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390_vli3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391_0jps1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392_orpba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393_rr0r5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394_db40x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395_st1kq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396_l57f7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397_qv7x1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398_vbtha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399_2j744")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400_ec5cb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401_lfxo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402_1ggof")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403_mg0lw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404_rimwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405_c2vli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406_bjevq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407_jwtpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408_vjtuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409_xytic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410_7xydk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411_4yov6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412_nwy4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413_dha14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414_gehao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415_sel87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416_ssafo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417_cqdqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418_3f13x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419_4tlpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420_2lh33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421_eagta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422_4jldl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423_7lm83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("424_2u8xv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("425_o5gqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("426_bkp8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("427_6gjxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("428_3e3kn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("429_d6hhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("430_s77tv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("431_w515d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("432_vu6dg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("433_72kko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("434_2w4yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("435_bssfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("436_1wjd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("437_ap1sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("438_ww8no")
+}, {
+"duration": 1.0,
+"texture": ExtResource("439_3otjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("440_w5yye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("441_kvkda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("442_k6oe7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("443_y6kqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("444_0irq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("445_ybv8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("446_eudlw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("447_w0038")
+}, {
+"duration": 1.0,
+"texture": ExtResource("448_lmd3h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("449_i16ve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("450_ir3mv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("451_0d6wd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("452_42psb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("453_kdhix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("454_c0p2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("455_105t1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("456_eefnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("457_e6ylg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("458_rqhgn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("459_l8se1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("460_wd24k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("461_h4bsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("462_6513v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("463_pebra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("464_4xt1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("465_3p1c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("466_gdshp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("467_06rsc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("468_g56jv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("469_qi3wv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("470_dx1ff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("471_5451i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("472_6dvpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("473_lcxf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("474_stw6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("475_dkfp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("476_8w2jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("477_cjusl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("478_1klox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("479_yxaxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("480_vprvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("481_8ip14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("482_okpub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("483_xpgva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("484_v6xet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("485_m5iko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("486_k8l60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("487_rr71c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("488_m41po")
+}, {
+"duration": 1.0,
+"texture": ExtResource("489_ydqhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("490_jm1jr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("491_8il01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("492_luvds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("493_4g1ic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("494_1n0kn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("495_rt2ye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("496_duriu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("497_y62rk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("498_c0r20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("499_nsn68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("500_lq3yl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("501_a5ied")
+}, {
+"duration": 1.0,
+"texture": ExtResource("502_moew3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("503_xsdbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("504_28yjv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("505_2lve7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("506_3ux4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("507_2wmm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("508_1w5hg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("509_hq6p8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("510_pu7mf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("511_shxo0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("512_2blko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("513_2b8sc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("514_uldoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("515_uw8jc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("516_284s5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("517_l8rds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("518_y27ul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("519_rm6vt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("520_1uhaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("521_et2kd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("522_ca7pi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("523_rqv2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("524_2sc65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("525_yt8hy")
+}],
+"loop": false,
+"name": &"death",
+"speed": 60.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("526_c5j1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("527_u0hxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("528_qq8gs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("529_ybqj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("530_g4k5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("531_istbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("532_1kh25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("533_8lk1q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("534_gyi41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("535_arw51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("536_3mfqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("537_xt85c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("538_ond4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("539_fq5yj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("540_giy6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("541_0b4sj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("542_fxd0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("543_0ga25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("544_pt06x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("545_bs6f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("546_lv5hu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("547_6kygy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("548_him1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("549_pkgel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("550_uwfw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("551_4v66o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("552_qxgo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("553_db58a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("554_4sf6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("555_j6a1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("556_yynx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("557_0nooj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("558_lagra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("559_4diq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("560_kwi7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("561_ygbld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("562_4gwtr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("563_5i5gi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("564_1ctn2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("565_y2w1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("566_lefl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("567_y0rn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("568_g3x15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("569_ey133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("570_qstgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("571_dsff6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("572_gnx4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("573_yxny4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("574_ofvd3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("575_rpso6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("576_d4kn8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("577_4wa2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("578_6twm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("579_8ftvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("580_54ujb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("581_0pxlv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("582_66feu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("583_10xbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("584_olls6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("585_yjd8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("586_pcwch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("587_uk1xy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("588_su1q0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("589_61ylw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("590_4n7jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("591_urakq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("592_a0n81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("593_v8kha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("594_355cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("595_n0htw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("596_ej05g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("597_uaa8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("598_lbitw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("599_x5o18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("600_j186w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("601_06y21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("602_2hql7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("603_oiseb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("604_kx1qa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("605_36tj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("606_n3wej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("607_te2hu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("608_d6tyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("609_akhhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("610_gbtc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("611_aupia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("612_r3x1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("613_uv5l3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("614_rux4d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("615_aimnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("616_ri534")
+}, {
+"duration": 1.0,
+"texture": ExtResource("617_8yc03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("618_g5v6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("619_jrypn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("620_jn44h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("621_kevho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("622_vjgwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("623_atwfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("624_c7oh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("625_6ln6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("626_3k7te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("627_dvb88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("628_ooukv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("629_kxh2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("630_0ibl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("631_kl3pn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("632_sdwn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("633_ckddi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("634_sltff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("635_soc4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("636_0xbk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("637_rcqbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("638_d6wme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("639_nccsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("640_8gnoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("641_8manh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("642_b1u3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("643_tt7pu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("644_duj32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("645_mnk02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("646_v2fuv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("647_na2p0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("648_6811n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("649_18owo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("650_jp712")
+}, {
+"duration": 1.0,
+"texture": ExtResource("651_ha7c7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("652_8akfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("653_n7x2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("654_la5wq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("655_tbkun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("656_8vrg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("657_awvr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("658_sjxpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("659_fx3em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("660_l5ydf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("661_md227")
+}, {
+"duration": 1.0,
+"texture": ExtResource("662_neku4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("663_qtn7p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("664_xuwon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("665_3ayua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("666_dvs4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("667_w6h2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("668_oyyrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("669_5qcfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("670_c6a0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("671_u6kcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("672_3xwu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("673_5xoa0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("674_qkukx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("675_dqv4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("676_cb8sq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("677_xg06u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("678_hxkmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("679_ri3o5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("680_nh825")
+}, {
+"duration": 1.0,
+"texture": ExtResource("681_s62pq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("682_g48ut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("683_nc82j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("684_ek15h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("685_vcpoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("686_omfrv")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 60.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1029_gnwyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1030_cidsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1031_qy8yd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1032_opjy7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1033_mfjsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1034_4aesj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1035_rp5dt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1036_thh0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1037_va8t6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1038_qdo3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1039_1l3ws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1040_xcepk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1041_614wc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1042_xuqgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1043_uaewj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1044_tqwru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1045_vnqj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1046_t204a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1047_3tqlx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1048_dvg7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1049_58i1u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1050_lfvii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1051_dpw4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1052_h5mc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1053_yg8dx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1054_xm7xp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1055_axpso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1056_mlc3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1057_2ne6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1058_w481l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1059_fkkkp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1060_2kihm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1061_vg1li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1062_6assb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1063_o3jdy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1064_vdxcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1065_maa08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1066_pext2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1067_pd0fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1068_6y13n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1069_4rxmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1070_cagrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1071_8dd16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1072_6oni8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1073_tnbxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1074_hml6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1075_4kmi8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1076_8rx7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1077_xv60a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1078_4d8ye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1079_ajxrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1080_74874")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1081_j5yp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1082_org21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1083_eyten")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1084_fgkao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1085_go7fa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1086_jfimx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1087_62cmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1088_mc2j3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1089_1b20t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1090_6nfi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1091_l07jl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1092_dt466")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1093_ydmaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1094_kqdld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1095_ljmx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1096_13ryi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1097_51adt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1098_jod4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1099_vqxbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1100_d8igu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1101_m4weq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1102_bmahy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1103_cm3bk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1104_g8sei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1105_ncg0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1106_86uxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1107_d4ep5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1108_r7wcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1109_xa818")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1110_3s448")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1111_y6gpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1112_0mmao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1113_pkros")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1114_q57lk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1115_daeq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1116_8606b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1117_jbpyn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1118_tpm1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1119_5fyqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1120_5g3rc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1121_81mas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1122_eo21o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1123_u6kdr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1124_cm8ee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1125_egokm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1126_tt4cm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1127_ifw21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1128_oea15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1129_y86ls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1130_26r07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1131_24y0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1132_ovco8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1133_mst85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1134_e3prk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1135_chpib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1136_qfp0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1137_20ven")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1138_qs8ot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1139_5r74l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1140_73140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1141_wwvwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1142_ngh8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1143_axxxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1144_xmuoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1145_vq7cy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1146_kve1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1147_bcmy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1148_uxwd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1149_egc4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1150_aqkuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1151_0df5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1152_dv5ys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1153_q0b2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1154_jmxic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1155_3ynw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1156_h2x2k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1157_fpabc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1158_0nm1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1159_udr8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1160_gsf5c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1161_jphoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1162_wwrxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1163_2dvi4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1164_b58ln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1165_k8ujk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1166_w1xw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1167_ejesu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1168_3bam6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1169_4v2yh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1170_gt5ls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1171_tr6m4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1172_owwfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1173_udd6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1174_l8wov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1175_otrwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1176_66kp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1177_j0emv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1178_8ox8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1179_gso7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1180_8f5ti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1181_bhb8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1182_lnnn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1183_50qeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1184_t8vhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1185_5r8y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1186_3yc7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1187_53r8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1188_0w1e1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1189_rcemf")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 60.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_70tpr"]
+radius = 404.317
+
+[node name="Dragon" type="CharacterBody2D" groups=["enemy"]]
+position = Vector2(0, -19)
+scale = Vector2(0.3, 0.3)
+script = ExtResource("1_1br8h")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(-43.3333, -25)
+shape = SubResource("RectangleShape2D_hehwa")
+
+[node name="Texture" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -62)
+sprite_frames = SubResource("SpriteFrames_w13tb")
+animation = &"attack"
+flip_h = true
+
+[node name="ProgressBar" parent="." instance=ExtResource("3_j0sks")]
+offset_left = -120.0
+offset_top = -190.0
+offset_right = -80.0
+offset_bottom = -150.0
+scale = Vector2(8, 8)
+
+[node name="AttackTimer" type="Timer" parent="."]
+wait_time = 2.7
+
+[node name="DetectionArea" type="Area2D" parent="."]
+position = Vector2(0, 2)
+
+[node name="Collision" type="CollisionShape2D" parent="DetectionArea"]
+position = Vector2(0, -2)
+shape = SubResource("CircleShape2D_70tpr")
+
+[node name="AttackAudio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("890_j1od7")
+
+[node name="DeathAudio" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("891_f2gg4")
+
+[connection signal="animation_finished" from="Texture" to="." method="_on_animation_finished"]
+[connection signal="timeout" from="AttackTimer" to="." method="_on_attack_timer_timeout"]
+[connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="DetectionArea" to="." method="_on_detection_area_body_exited"]

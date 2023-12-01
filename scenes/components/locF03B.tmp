@@ -1,0 +1,80 @@
+[gd_scene load_steps=9 format=3 uid="uid://b56n2b328xrjb"]
+
+[ext_resource type="Texture2D" uid="uid://bfm5c24xye0od" path="res://assets/locker/tile_0092.png" id="1_5blso"]
+[ext_resource type="Script" path="res://scripts/locker.gd" id="1_q1ppc"]
+[ext_resource type="Texture2D" uid="uid://nuklmmk4e535" path="res://assets/locker/tile_0091.png" id="2_2oihw"]
+[ext_resource type="Texture2D" uid="uid://cn1hqlj6ifhmg" path="res://assets/locker/tile_0090.png" id="3_dkje6"]
+[ext_resource type="Texture2D" uid="uid://csx8efn1qid0s" path="res://assets/locker/tile_0089.png" id="4_2v5ns"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gjdm2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5blso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2oihw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dkje6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_2v5ns")
+}],
+"loop": false,
+"name": &"close",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_2v5ns")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_2v5ns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dkje6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2oihw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_5blso")
+}],
+"loop": false,
+"name": &"open",
+"speed": 4.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r2e8m"]
+size = Vector2(16, 14)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sukn4"]
+radius = 19.2354
+
+[node name="Locker" type="Area2D"]
+script = ExtResource("1_q1ppc")
+
+[node name="Texture" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_gjdm2")
+animation = &"close"
+frame = 3
+frame_progress = 1.0
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_r2e8m")
+
+[node name="DetectionArea" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="DetectionArea"]
+shape = SubResource("CircleShape2D_sukn4")
+
+[connection signal="animation_finished" from="Texture" to="." method="_on_texture_animation_finished"]
+[connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="DetectionArea" to="." method="_on_detection_area_body_exited"]

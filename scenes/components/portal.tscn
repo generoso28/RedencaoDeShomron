@@ -1,0 +1,64 @@
+[gd_scene load_steps=13 format=3 uid="uid://c2hjyj0uclnhd"]
+
+[ext_resource type="Script" path="res://scripts/portal.gd" id="1_bw7hy"]
+[ext_resource type="Texture2D" uid="uid://h4a677rrimhu" path="res://assets/portal/frame-1.png" id="1_eij5w"]
+[ext_resource type="Texture2D" uid="uid://d3oahtwxswun" path="res://assets/portal/frame-2.png" id="2_i5ruu"]
+[ext_resource type="Texture2D" uid="uid://dibjvt63bn1we" path="res://assets/portal/frame-3.png" id="3_0kpok"]
+[ext_resource type="Texture2D" uid="uid://doxdy61hr2mxn" path="res://assets/portal/frame-4.png" id="4_1wxl1"]
+[ext_resource type="Texture2D" uid="uid://dgpy6ccngc10r" path="res://assets/portal/frame-5.png" id="5_m2b03"]
+[ext_resource type="Texture2D" uid="uid://cpsup4aip34d1" path="res://assets/portal/frame-6.png" id="6_43t64"]
+[ext_resource type="Texture2D" uid="uid://dso7mbe71oorx" path="res://assets/portal/frame-7.png" id="7_n6i4y"]
+[ext_resource type="Texture2D" uid="uid://gkyxesqa56e1" path="res://assets/portal/frame-8.png" id="8_e1w85"]
+[ext_resource type="Texture2D" uid="uid://dip46u108dw3n" path="res://assets/portal/frame-9.png" id="9_8ty7o"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_355or"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_eij5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_i5ruu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0kpok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1wxl1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_m2b03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_43t64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_n6i4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_e1w85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_8ty7o")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i3c2a"]
+radius = 172.047
+
+[node name="Portal" type="Area2D"]
+scale = Vector2(0.08, 0.08)
+script = ExtResource("1_bw7hy")
+
+[node name="Animation" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_355or")
+frame_progress = 0.884962
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_i3c2a")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="frame_changed" from="Animation" to="." method="_on_animation_frame_changed"]

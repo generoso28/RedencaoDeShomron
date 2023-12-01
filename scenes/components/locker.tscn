@@ -1,0 +1,77 @@
+[gd_scene load_steps=12 format=3 uid="uid://b56n2b328xrjb"]
+
+[ext_resource type="Texture2D" uid="uid://bfm5c24xye0od" path="res://assets/locker/tile_0092.png" id="1_5blso"]
+[ext_resource type="Script" path="res://scripts/locker.gd" id="1_q1ppc"]
+[ext_resource type="Texture2D" uid="uid://nuklmmk4e535" path="res://assets/locker/tile_0091.png" id="2_2oihw"]
+[ext_resource type="Texture2D" uid="uid://cn1hqlj6ifhmg" path="res://assets/locker/tile_0090.png" id="3_dkje6"]
+[ext_resource type="Texture2D" uid="uid://csx8efn1qid0s" path="res://assets/locker/tile_0089.png" id="4_2v5ns"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_5demq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8ve25"]
+size = Vector2(16, 14)
+
+[sub_resource type="Animation" id="Animation_06ops"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("4_2v5ns")]
+}
+
+[sub_resource type="Animation" id="Animation_nldm3"]
+resource_name = "open"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("4_2v5ns"), ExtResource("3_dkje6"), ExtResource("2_2oihw"), ExtResource("1_5blso")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tqh82"]
+_data = {
+"RESET": SubResource("Animation_06ops"),
+"open": SubResource("Animation_nldm3")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yjn3m"]
+radius = 19.2354
+
+[node name="StaticBody2D" type="StaticBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_5demq")
+script = ExtResource("1_q1ppc")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_8ve25")
+
+[node name="Texture" type="Sprite2D" parent="."]
+texture = ExtResource("4_2v5ns")
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Texture")
+libraries = {
+"": SubResource("AnimationLibrary_tqh82")
+}
+
+[node name="DetectionArea" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="DetectionArea"]
+shape = SubResource("CircleShape2D_yjn3m")
+
+[connection signal="animation_finished" from="Animation" to="." method="_on_animation_finished"]
+[connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_area_body_entered"]
