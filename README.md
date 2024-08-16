@@ -11,7 +11,6 @@
 ## Tecnologias Utilizadas
 - **Godot Engine**: Motor de jogo utilizado para o desenvolvimento.
 - **GDScript**: Linguagem de script usada para programar a lógica do jogo.
-- **Blender**: Ferramenta de modelagem 3D para criar os modelos dos personagens e ambientes.
 
 ## Como Jogar
 1. Clone este repositório:
